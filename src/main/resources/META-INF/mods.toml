@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="future_weapons"
+version="1.0.0"
+displayName="future weapons"
+displayURL="https://mcreator.net"
+credits="Thanks to the Mcreator"
+authors="kosty_0lfbbwf"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.future_weapons]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.future_weapons]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,7 @@
+{
+  "parent": "future_weapons:custom/kingal_lezvie",
+  "textures": {
+    "0": "future_weapons:block/kingal",
+    "particle": "future_weapons:item/kingal"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "future_weapons:custom/acumulator_electr_sw",
+  "textures": {
+    "0": "future_weapons:block/acumulator_electr_sw",
+    "particle": "future_weapons:item/electr_acum"
+  }
+}

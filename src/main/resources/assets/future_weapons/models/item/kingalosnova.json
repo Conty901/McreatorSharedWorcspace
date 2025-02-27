@@ -1,0 +1,7 @@
+{
+  "parent": "future_weapons:custom/kingal_osnova",
+  "textures": {
+    "0": "future_weapons:block/kingal_osnova",
+    "particle": "future_weapons:item/kingalosnov"
+  }
+}

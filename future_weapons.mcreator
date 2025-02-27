@@ -1,0 +1,3293 @@
+{
+  "mod_elements": [
+    {
+      "name": "KingalLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingal_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/KingalLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/weapons/kingal"
+    },
+    {
+      "name": "Kingal",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/kingal.json",
+          "src/main/java/net/mcreator/futureweapons/item/KingalItem.java"
+        ]
+      },
+      "path": "~/weapons/kingal"
+    },
+    {
+      "name": "ElectricityActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricity_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/ElectricityActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/weapons/electr_sw"
+    },
+    {
+      "name": "Electricsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricsword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/ElectricswordItem.java",
+          "src/main/resources/assets/future_weapons/models/item/electricsword.json"
+        ]
+      },
+      "path": "~/weapons/electr_sw"
+    },
+    {
+      "name": "ElectricityEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricity_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/ElectricityEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/weapons/electr_sw"
+    },
+    {
+      "name": "Electricity",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/potion/ElectricityMobEffect.java"
+        ]
+      },
+      "path": "~/weapons/electr_sw"
+    },
+    {
+      "name": "Engeneertable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engeneertable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/block/engeneertable.json",
+          "src/main/resources/assets/future_weapons/models/item/engeneertable.json",
+          "src/main/java/net/mcreator/futureweapons/block/EngeneertableBlock.java",
+          "src/main/resources/assets/future_weapons/blockstates/engeneertable.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/engeneertable.json"
+        ]
+      },
+      "path": "~/engeneer_table"
+    },
+    {
+      "name": "Schematickingal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schematickingal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/SchematickingalItem.java",
+          "src/main/resources/assets/future_weapons/models/item/schematickingal.json"
+        ]
+      },
+      "path": "~/weapons/kingal"
+    },
+    {
+      "name": "Engineertable",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engineertable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/network/EngineertableButtonMessage.java",
+          "src/main/java/net/mcreator/futureweapons/world/inventory/EngineertableMenu.java",
+          "src/main/java/net/mcreator/futureweapons/client/gui/EngineertableScreen.java"
+        ]
+      },
+      "path": "~/engeneer_table"
+    },
+    {
+      "name": "Blood",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/client/particle/BloodParticle.java",
+          "src/main/resources/assets/future_weapons/particles/blood.json"
+        ]
+      },
+      "path": "~/weapons/kingal"
+    },
+    {
+      "name": "BloodingOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blooding_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/BloodingOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/weapons/kingal"
+    },
+    {
+      "name": "Blooding",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blooding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/potion/BloodingMobEffect.java"
+        ]
+      },
+      "path": "~/weapons/kingal"
+    },
+    {
+      "name": "Izuchit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "izuchit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/IzuchitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/engeneer_table"
+    },
+    {
+      "name": "HEART",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/heart.json"
+        ]
+      },
+      "path": "~/implants"
+    },
+    {
+      "name": "Bionicheart",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bionicheart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/bionicheart.json",
+          "src/main/java/net/mcreator/futureweapons/item/BionicheartItem.java"
+        ]
+      },
+      "path": "~/implants"
+    },
+    {
+      "name": "Staminaproc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staminaproc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/StaminaprocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina"
+    },
+    {
+      "name": "D1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "BionicheartWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bionicheart_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/BionicheartWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/implants"
+    },
+    {
+      "name": "BionicheartBaubleIsUnequipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bionicheart_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/BionicheartBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/implants"
+    },
+    {
+      "name": "Stamina",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stamina",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/client/screens/StaminaOverlay.java"
+        ]
+      },
+      "path": "~/osnova/stamina"
+    },
+    {
+      "name": "D2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_11",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D12",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_12",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D13",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_13",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D13Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D14",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_14",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D14Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D15",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_15",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D15Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D16",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_16",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D16Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D17",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_17",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D17Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D18",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_18",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D18Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D19",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_19",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D19Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D20",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_20",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D20Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "Bionicheart2",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bionicheart_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/bionicheart_2.json",
+          "src/main/java/net/mcreator/futureweapons/item/Bionicheart2Item.java"
+        ]
+      },
+      "path": "~/implants"
+    },
+    {
+      "name": "D21",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_21",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D21Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D22",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_22",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D22Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D23",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_23",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D23Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D24",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_24",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D24Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D25",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_25",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D25Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D26",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_26",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D26Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D27",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_27",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D27Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D28",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_28",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D28Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D29",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_29",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D29Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D30",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_30",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D30Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D31",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_31",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D31Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D32",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_32",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D32Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D33",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_33",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D33Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D34",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_34",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D34Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D35",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_35",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D35Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D36",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_36",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D36Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D37",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_37",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D37Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D38",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_38",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D38Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D39",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_39",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D39Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D40",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_40",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D40Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D41",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_41",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D41Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D42",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_42",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D42Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D43",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_43",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D43Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D44",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_44",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D44Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D45",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_45",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D45Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D46",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_46",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D46Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D47",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_47",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D47Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D48",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_48",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D48Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D49",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_49",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D49Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D50",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_50",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D50Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D51",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_51",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D51Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D52",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_52",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D52Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D53",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_53",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D53Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D54",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_54",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D54Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D55",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_55",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D55Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D56",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_56",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D56Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D57",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_57",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D57Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D58",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_58",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D58Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D59",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_59",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D59Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "D60",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_60",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/D60Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "S1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/S1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "S2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/S2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "S3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/S3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "S4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/S4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "S5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/S5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "S6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/S6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "S7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/S7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "S8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/S8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "S9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/S9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "S10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/S10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "F1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_11",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F12",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_12",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F13",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_13",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F13Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F14",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_14",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F14Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F15",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_15",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F15Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F16",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_16",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F16Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F17",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_17",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F17Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F18",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_18",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F18Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F19",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_19",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F19Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F20",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_20",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F20Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F21",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_21",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F21Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F22",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_22",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F22Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F23",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_23",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F23Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F24",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_24",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F24Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F25",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_25",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F25Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F26",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_26",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F26Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F27",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_27",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F27Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F28",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_28",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F28Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F29",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_29",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F29Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F30",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_30",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F30Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F31",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_31",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F31Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F32",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_32",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F32Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F33",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_33",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F33Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F34",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_34",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F34Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F35",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_35",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F35Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F36",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_36",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F36Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F37",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_37",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F37Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F38",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_38",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F38Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F39",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_39",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F39Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F40",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_40",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F40Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "F41",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_41",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/F41Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "Weight",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/client/screens/WeightOverlay.java"
+        ]
+      },
+      "path": "~/osnova/weight"
+    },
+    {
+      "name": "Textprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textprocedure",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/TextprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "Textprocedureif1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textprocedureif_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/Textprocedureif1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "Textprocedureif2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textprocedureif_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/Textprocedureif2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "Textprocedureif3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textprocedureif_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/Textprocedureif3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight/Weight_procedures"
+    },
+    {
+      "name": "TestweighteditaddRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testweighteditadd_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/TestweighteditaddRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight"
+    },
+    {
+      "name": "Testweighteditadd",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testweighteditadd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/testweighteditadd.json",
+          "src/main/java/net/mcreator/futureweapons/item/TestweighteditaddItem.java"
+        ]
+      },
+      "path": "~/osnova/weight"
+    },
+    {
+      "name": "TestweighteditremoveRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testweighteditremove_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/TestweighteditremoveRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/osnova/weight"
+    },
+    {
+      "name": "Testweighteditremove",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testweighteditremove",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/TestweighteditremoveItem.java",
+          "src/main/resources/assets/future_weapons/models/item/testweighteditremove.json"
+        ]
+      },
+      "path": "~/osnova/weight"
+    },
+    {
+      "name": "Ifblockisbroken",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ifblockisbroken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/IfblockisbrokenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/osnova/stamina/STAMINA_PROSEDURE"
+    },
+    {
+      "name": "ElectricswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricsword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/ElectricswordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/weapons/electr_sw"
+    },
+    {
+      "name": "Kingallezvie",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingallezvie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/kingallezvie.json",
+          "src/main/java/net/mcreator/futureweapons/item/KingallezvieItem.java"
+        ]
+      },
+      "path": "~/weapons/kingal/elements"
+    },
+    {
+      "name": "Kingalosnova",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingalosnova",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/KingalosnovaItem.java",
+          "src/main/resources/assets/future_weapons/models/item/kingalosnova.json"
+        ]
+      },
+      "path": "~/weapons/kingal/elements"
+    },
+    {
+      "name": "Kingalosnov",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingalosnov",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/kingalosnova.json"
+        ]
+      },
+      "path": "~/weapons/kingal/elements"
+    },
+    {
+      "name": "Molot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/molot.json",
+          "src/main/java/net/mcreator/futureweapons/item/MolotItem.java"
+        ]
+      },
+      "path": "~/engeneer_table"
+    },
+    {
+      "name": "Molotcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molotcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/molot.json"
+        ]
+      },
+      "path": "~/engeneer_table"
+    },
+    {
+      "name": "Electswruchka",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electswruchka",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/electswruchka.json",
+          "src/main/java/net/mcreator/futureweapons/item/ElectswruchkaItem.java"
+        ]
+      },
+      "path": "~/weapons/electr_sw/elements"
+    },
+    {
+      "name": "Electrswruchkarecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrswruchkarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/ruchka.json"
+        ]
+      },
+      "path": "~/weapons/electr_sw/elements"
+    },
+    {
+      "name": "Electracum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electracum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/ElectracumItem.java",
+          "src/main/resources/assets/future_weapons/models/item/electracum.json"
+        ]
+      },
+      "path": "~/weapons/electr_sw/elements"
+    },
+    {
+      "name": "Electracumrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electracumrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/electro_acum.json"
+        ]
+      },
+      "path": "~/weapons/electr_sw/elements"
+    },
+    {
+      "name": "ACUMEMPTY",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acumempty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/ACUMEMPTYItem.java",
+          "src/main/resources/assets/future_weapons/models/item/acumempty.json"
+        ]
+      },
+      "path": "~/weapons/electr_sw/elements"
+    },
+    {
+      "name": "Schematicelectrosword",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schematicelectrosword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/SchematicelectroswordItem.java",
+          "src/main/resources/assets/future_weapons/models/item/schematicelectrosword.json"
+        ]
+      },
+      "path": "~/weapons/electr_sw"
+    },
+    {
+      "name": "Acumemptyrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acumemptyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/acumempty.json"
+        ]
+      },
+      "path": "~/weapons/electr_sw/elements"
+    },
+    {
+      "name": "Serebroraw",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serebroraw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/serebroraw.json",
+          "src/main/java/net/mcreator/futureweapons/item/SerebrorawItem.java"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Serebroore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serebroore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/worldgen/configured_feature/serebroore.json",
+          "src/main/java/net/mcreator/futureweapons/block/SerebrooreBlock.java",
+          "src/main/resources/data/future_weapons/forge/biome_modifier/serebroore_biome_modifier.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/serebroore.json",
+          "src/main/resources/assets/future_weapons/models/item/serebroore.json",
+          "src/main/resources/assets/future_weapons/models/block/serebroore.json",
+          "src/main/resources/data/future_weapons/worldgen/placed_feature/serebroore.json",
+          "src/main/resources/assets/future_weapons/blockstates/serebroore.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Serebro",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serebro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/SerebroItem.java",
+          "src/main/resources/assets/future_weapons/models/item/serebro.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Serebrorecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serebrorecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/serebro.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Whiteserebro",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whiteserebro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/WhiteserebroItem.java",
+          "src/main/resources/assets/future_weapons/models/item/whiteserebro.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Vtsftsvifv",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vtsftsvifv",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/blockstates/vtsftsvifv.json",
+          "src/main/resources/assets/future_weapons/models/block/vtsftsvifv.json",
+          "src/main/java/net/mcreator/futureweapons/block/entity/VtsftsvifvBlockEntity.java",
+          "src/main/java/net/mcreator/futureweapons/block/VtsftsvifvBlock.java",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/vtsftsvifv.json",
+          "src/main/resources/assets/future_weapons/models/item/vtsftsvifv.json"
+        ]
+      },
+      "path": "~/fusioner"
+    },
+    {
+      "name": "Tsivftsiivtsf",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsivftsiivtsf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/client/gui/TsivftsiivtsfScreen.java",
+          "src/main/java/net/mcreator/futureweapons/world/inventory/TsivftsiivtsfMenu.java"
+        ]
+      },
+      "path": "~/fusioner"
+    },
+    {
+      "name": "Tsvutsuvuts",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsvutsuvuts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/block/TsvutsuvutsBlock.java",
+          "src/main/resources/assets/future_weapons/blockstates/tsvutsuvuts.json",
+          "src/main/resources/assets/future_weapons/models/block/tsvutsuvuts.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/tsvutsuvuts.json",
+          "src/main/resources/assets/future_weapons/models/item/tsvutsuvuts.json",
+          "src/main/java/net/mcreator/futureweapons/block/entity/TsvutsuvutsBlockEntity.java"
+        ]
+      },
+      "path": "~/fusioner"
+    },
+    {
+      "name": "Autsauats",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "autsauats",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/AutsauatsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/fusioner"
+    },
+    {
+      "name": "Crafts",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/CraftsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/fusioner"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "stamina",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "stamina_add",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.3"
+    },
+    {
+      "name": "stamina_remove",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.7"
+    },
+    {
+      "name": "stamina_max",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "gamemode",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "weight",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "power",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Serebroore"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Engeneertable"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Serebroore"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Electricsword",
+      "~CUSTOM:Kingal"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.future_weapons.serebro": "Serebro",
+      "item.future_weapons.schematickingal": "Schematic kingal",
+      "item.future_weapons.electricsword": "Electric sword",
+      "item.future_weapons.electracum": "Electro acumulator",
+      "item.future_weapons.schematicelectrosword": "Schematic electro sword",
+      "block.future_weapons.tsvutsuvuts": "Vtsftsvifv",
+      "item.future_weapons.molot": "Molot",
+      "item.future_weapons.serebroraw": "Необработаное серебро",
+      "effect.future_weapons.blooding": "Blooding",
+      "item.future_weapons.kingallezvie": "Kingal lezvie",
+      "item.future_weapons.bionicheart_2": "Bionic heart 2",
+      "block.future_weapons.engeneertable": "Engeneer table",
+      "item.future_weapons.acumempty": "ACUMEMPTY",
+      "item.future_weapons.electswruchka": "Electro sword ruchka",
+      "gui.future_weapons.engineertable.button_sozdat": "Создать",
+      "block.future_weapons.serebroore": "Серебряная руда",
+      "item.future_weapons.testweighteditadd": "Test weight edit add",
+      "block.future_weapons.vtsftsvifv": "Vtsftsvifv",
+      "gui.future_weapons.engineertable.button_izuchit": "Изучить",
+      "item.future_weapons.testweighteditremove": "Testweighteditremove",
+      "curios.identifier.heart": "HEART",
+      "item.future_weapons.kingal": "Кинжал",
+      "item.future_weapons.whiteserebro": "Белое серебро",
+      "item.future_weapons.bionicheart": "Bionic heart",
+      "effect.future_weapons.electricity": "Electricity",
+      "item.future_weapons.kingalosnova": "Kingalosnova"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "weapons",
+        "children": [
+          {
+            "name": "electr_sw",
+            "children": [
+              {
+                "name": "elements",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "kingal",
+            "children": [
+              {
+                "name": "elements",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "implants",
+        "children": []
+      },
+      {
+        "name": "osnova",
+        "children": [
+          {
+            "name": "weight",
+            "children": [
+              {
+                "name": "Weight_procedures",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "stamina",
+            "children": [
+              {
+                "name": "STAMINA_PROSEDURE",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "engeneer_table",
+        "children": []
+      },
+      {
+        "name": "metals",
+        "children": [
+          {
+            "name": "serebro",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "fusioner",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "future_weapons",
+    "modName": "future weapons",
+    "version": "1.0.0",
+    "author": "kosty_0lfbbwf",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Thanks to the Mcreator",
+    "modElementsPackage": "net.mcreator.futureweapons"
+  },
+  "mcreatorVersion": 202400232117
+}

@@ -1,0 +1,621 @@
+{
+  "_fv": 66,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "weight_empty.png",
+          "use1Xscale": false,
+          "anchorPoint": "CENTER",
+          "x": 373,
+          "y": 187
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F1"
+          },
+          "anchorPoint": "CENTER",
+          "x": 401,
+          "y": 233
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 397,
+          "y": 231
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 395,
+          "y": 230
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F4"
+          },
+          "anchorPoint": "CENTER",
+          "x": 393,
+          "y": 229
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_15.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F5"
+          },
+          "anchorPoint": "CENTER",
+          "x": 392,
+          "y": 229
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_21.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F6"
+          },
+          "anchorPoint": "CENTER",
+          "x": 392,
+          "y": 227
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_22.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F7"
+          },
+          "anchorPoint": "CENTER",
+          "x": 391,
+          "y": 226
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_23.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F8"
+          },
+          "anchorPoint": "CENTER",
+          "x": 391,
+          "y": 225
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_24.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F9"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_25.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F10"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_31.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F11"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 222
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_32.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F12"
+          },
+          "anchorPoint": "CENTER",
+          "x": 389,
+          "y": 221
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_33.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F13"
+          },
+          "anchorPoint": "CENTER",
+          "x": 389,
+          "y": 220
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_34.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F14"
+          },
+          "anchorPoint": "CENTER",
+          "x": 389,
+          "y": 219
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_35.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F15"
+          },
+          "anchorPoint": "CENTER",
+          "x": 389,
+          "y": 218
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_41.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F16"
+          },
+          "anchorPoint": "CENTER",
+          "x": 389,
+          "y": 217
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_43.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F18"
+          },
+          "anchorPoint": "CENTER",
+          "x": 389,
+          "y": 215
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_44.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F19"
+          },
+          "anchorPoint": "CENTER",
+          "x": 389,
+          "y": 214
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_45.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F20"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 214
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_51.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F21"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 212
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_52.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F22"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 211
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_53.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F23"
+          },
+          "anchorPoint": "CENTER",
+          "x": 391,
+          "y": 210
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_54.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F24"
+          },
+          "anchorPoint": "CENTER",
+          "x": 391,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_55.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F25"
+          },
+          "anchorPoint": "CENTER",
+          "x": 392,
+          "y": 208
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_41.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F17"
+          },
+          "anchorPoint": "CENTER",
+          "x": 389,
+          "y": 216
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_61.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F26"
+          },
+          "anchorPoint": "CENTER",
+          "x": 393,
+          "y": 207
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_62.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F27"
+          },
+          "anchorPoint": "CENTER",
+          "x": 394,
+          "y": 206
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_63.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F28"
+          },
+          "anchorPoint": "CENTER",
+          "x": 393,
+          "y": 205
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_64.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F29"
+          },
+          "anchorPoint": "CENTER",
+          "x": 392,
+          "y": 204
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_65.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F30"
+          },
+          "anchorPoint": "CENTER",
+          "x": 391,
+          "y": 203
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_71.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F31"
+          },
+          "anchorPoint": "CENTER",
+          "x": 391,
+          "y": 202
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_72.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F32"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 201
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_73.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F33"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 200
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_74.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F34"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 199
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_75.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F35"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 198
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_76.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F36"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_81.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F37"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 196
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_82.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F38"
+          },
+          "anchorPoint": "CENTER",
+          "x": 390,
+          "y": 195
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_83.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F39"
+          },
+          "anchorPoint": "CENTER",
+          "x": 391,
+          "y": 194
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_84.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F40"
+          },
+          "anchorPoint": "CENTER",
+          "x": 393,
+          "y": 193
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_weight_85.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "F41"
+          },
+          "anchorPoint": "CENTER",
+          "x": 397,
+          "y": 192
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_textprocedure",
+          "text": {
+            "fixedValue": "",
+            "name": "Textprocedure"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Textprocedureif1"
+          },
+          "anchorPoint": "CENTER",
+          "x": 400,
+          "y": 215
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_textprocedure1",
+          "text": {
+            "fixedValue": "",
+            "name": "Textprocedure"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Textprocedureif2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 397,
+          "y": 215
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_textprocedure2",
+          "text": {
+            "fixedValue": "",
+            "name": "Textprocedure"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Textprocedureif3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 394,
+          "y": 215
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

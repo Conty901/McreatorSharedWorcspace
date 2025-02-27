@@ -1,0 +1,7 @@
+{
+  "parent": "future_weapons:custom/electric_sword",
+  "textures": {
+    "1": "future_weapons:block/electric_sword",
+    "particle": "future_weapons:item/electricsword"
+  }
+}

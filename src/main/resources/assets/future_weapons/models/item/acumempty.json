@@ -1,0 +1,7 @@
+{
+  "parent": "future_weapons:custom/acum_unfull",
+  "textures": {
+    "0": "future_weapons:block/acumulator_unfull",
+    "particle": "future_weapons:item/acum_empty"
+  }
+}
