@@ -3106,6 +3106,28 @@
         ]
       },
       "path": "~/fusioner"
+    },
+    {
+      "name": "A1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/A1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3267,10 +3289,6 @@
       },
       {
         "name": "fusioner",
-        "children": []
-      },
-      {
-        "name": "awdwad",
         "children": []
       }
     ]
