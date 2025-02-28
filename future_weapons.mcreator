@@ -3108,28 +3108,6 @@
       "path": "~/fusioner"
     },
     {
-      "name": "A1",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "a_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/futureweapons/procedures/A1Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Off",
       "type": "block",
       "compiles": true,
@@ -3148,6 +3126,20 @@
       "path": "~/new fusioner"
     },
     {
+      "name": "FusGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fus_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/client/gui/FusGUIScreen.java",
+          "src/main/java/net/mcreator/futureweapons/world/inventory/FusGUIMenu.java"
+        ]
+      },
+      "path": "~/new fusioner"
+    },
+    {
       "name": "On",
       "type": "block",
       "compiles": true,
@@ -3161,20 +3153,6 @@
           "src/main/java/net/mcreator/futureweapons/block/entity/OnBlockEntity.java",
           "src/main/java/net/mcreator/futureweapons/block/OnBlock.java",
           "src/main/resources/assets/future_weapons/blockstates/on.json"
-        ]
-      },
-      "path": "~/new fusioner"
-    },
-    {
-      "name": "FusGUI",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fus_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/futureweapons/client/gui/FusGUIScreen.java",
-          "src/main/java/net/mcreator/futureweapons/world/inventory/FusGUIMenu.java"
         ]
       },
       "path": "~/new fusioner"
@@ -3277,57 +3255,11 @@
     "name": "~",
     "children": [
       {
-        "name": "weapons",
-        "children": [
-          {
-            "name": "electr_sw",
-            "children": [
-              {
-                "name": "elements",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "kingal",
-            "children": [
-              {
-                "name": "elements",
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "implants",
+        "name": "new fusioner",
         "children": []
       },
       {
-        "name": "osnova",
-        "children": [
-          {
-            "name": "weight",
-            "children": [
-              {
-                "name": "Weight_procedures",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "stamina",
-            "children": [
-              {
-                "name": "STAMINA_PROSEDURE",
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "engeneer_table",
+        "name": "fusioner",
         "children": []
       },
       {
@@ -3340,12 +3272,58 @@
         ]
       },
       {
-        "name": "fusioner",
+        "name": "weapons",
+        "children": [
+          {
+            "name": "kingal",
+            "children": [
+              {
+                "name": "elements",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "electr_sw",
+            "children": [
+              {
+                "name": "elements",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "engeneer_table",
         "children": []
       },
       {
-        "name": "new fusioner",
+        "name": "implants",
         "children": []
+      },
+      {
+        "name": "osnova",
+        "children": [
+          {
+            "name": "stamina",
+            "children": [
+              {
+                "name": "STAMINA_PROSEDURE",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "weight",
+            "children": [
+              {
+                "name": "Weight_procedures",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
