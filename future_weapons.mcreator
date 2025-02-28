@@ -27,8 +27,8 @@
       "registry_name": "kingal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/future_weapons/models/item/kingal.json",
-          "src/main/java/net/mcreator/futureweapons/item/KingalItem.java"
+          "src/main/java/net/mcreator/futureweapons/item/KingalItem.java",
+          "src/main/resources/assets/future_weapons/models/item/kingal.json"
         ]
       },
       "path": "~/weapons/kingal"
@@ -114,11 +114,11 @@
       "registry_name": "engeneertable",
       "metadata": {
         "files": [
-          "src/main/resources/assets/future_weapons/models/block/engeneertable.json",
-          "src/main/resources/assets/future_weapons/models/item/engeneertable.json",
-          "src/main/java/net/mcreator/futureweapons/block/EngeneertableBlock.java",
           "src/main/resources/assets/future_weapons/blockstates/engeneertable.json",
-          "src/main/resources/data/future_weapons/loot_tables/blocks/engeneertable.json"
+          "src/main/resources/data/future_weapons/loot_tables/blocks/engeneertable.json",
+          "src/main/java/net/mcreator/futureweapons/block/EngeneertableBlock.java",
+          "src/main/resources/assets/future_weapons/models/item/engeneertable.json",
+          "src/main/resources/assets/future_weapons/models/block/engeneertable.json"
         ]
       },
       "path": "~/engeneer_table"
@@ -146,8 +146,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/futureweapons/network/EngineertableButtonMessage.java",
-          "src/main/java/net/mcreator/futureweapons/world/inventory/EngineertableMenu.java",
-          "src/main/java/net/mcreator/futureweapons/client/gui/EngineertableScreen.java"
+          "src/main/java/net/mcreator/futureweapons/client/gui/EngineertableScreen.java",
+          "src/main/java/net/mcreator/futureweapons/world/inventory/EngineertableMenu.java"
         ]
       },
       "path": "~/engeneer_table"
@@ -242,8 +242,8 @@
       "registry_name": "bionicheart",
       "metadata": {
         "files": [
-          "src/main/resources/assets/future_weapons/models/item/bionicheart.json",
-          "src/main/java/net/mcreator/futureweapons/item/BionicheartItem.java"
+          "src/main/java/net/mcreator/futureweapons/item/BionicheartItem.java",
+          "src/main/resources/assets/future_weapons/models/item/bionicheart.json"
         ]
       },
       "path": "~/implants"
@@ -730,8 +730,8 @@
       "registry_name": "bionicheart_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/future_weapons/models/item/bionicheart_2.json",
-          "src/main/java/net/mcreator/futureweapons/item/Bionicheart2Item.java"
+          "src/main/java/net/mcreator/futureweapons/item/Bionicheart2Item.java",
+          "src/main/resources/assets/future_weapons/models/item/bionicheart_2.json"
         ]
       },
       "path": "~/implants"
@@ -2709,8 +2709,8 @@
       "registry_name": "testweighteditremove",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/item/TestweighteditremoveItem.java",
-          "src/main/resources/assets/future_weapons/models/item/testweighteditremove.json"
+          "src/main/resources/assets/future_weapons/models/item/testweighteditremove.json",
+          "src/main/java/net/mcreator/futureweapons/item/TestweighteditremoveItem.java"
         ]
       },
       "path": "~/osnova/weight"
@@ -2765,8 +2765,8 @@
       "registry_name": "kingallezvie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/future_weapons/models/item/kingallezvie.json",
-          "src/main/java/net/mcreator/futureweapons/item/KingallezvieItem.java"
+          "src/main/java/net/mcreator/futureweapons/item/KingallezvieItem.java",
+          "src/main/resources/assets/future_weapons/models/item/kingallezvie.json"
         ]
       },
       "path": "~/weapons/kingal/elements"
@@ -2806,8 +2806,8 @@
       "registry_name": "molot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/future_weapons/models/item/molot.json",
-          "src/main/java/net/mcreator/futureweapons/item/MolotItem.java"
+          "src/main/java/net/mcreator/futureweapons/item/MolotItem.java",
+          "src/main/resources/assets/future_weapons/models/item/molot.json"
         ]
       },
       "path": "~/engeneer_table"
@@ -2887,8 +2887,8 @@
       "registry_name": "acumempty",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/item/ACUMEMPTYItem.java",
-          "src/main/resources/assets/future_weapons/models/item/acumempty.json"
+          "src/main/resources/assets/future_weapons/models/item/acumempty.json",
+          "src/main/java/net/mcreator/futureweapons/item/ACUMEMPTYItem.java"
         ]
       },
       "path": "~/weapons/electr_sw/elements"
@@ -2901,8 +2901,8 @@
       "registry_name": "schematicelectrosword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/item/SchematicelectroswordItem.java",
-          "src/main/resources/assets/future_weapons/models/item/schematicelectrosword.json"
+          "src/main/resources/assets/future_weapons/models/item/schematicelectrosword.json",
+          "src/main/java/net/mcreator/futureweapons/item/SchematicelectroswordItem.java"
         ]
       },
       "path": "~/weapons/electr_sw"
@@ -2942,14 +2942,14 @@
       "registry_name": "serebroore",
       "metadata": {
         "files": [
-          "src/main/resources/data/future_weapons/worldgen/configured_feature/serebroore.json",
           "src/main/java/net/mcreator/futureweapons/block/SerebrooreBlock.java",
-          "src/main/resources/data/future_weapons/forge/biome_modifier/serebroore_biome_modifier.json",
           "src/main/resources/data/future_weapons/loot_tables/blocks/serebroore.json",
+          "src/main/resources/data/future_weapons/worldgen/placed_feature/serebroore.json",
+          "src/main/resources/assets/future_weapons/blockstates/serebroore.json",
+          "src/main/resources/data/future_weapons/forge/biome_modifier/serebroore_biome_modifier.json",
           "src/main/resources/assets/future_weapons/models/item/serebroore.json",
           "src/main/resources/assets/future_weapons/models/block/serebroore.json",
-          "src/main/resources/data/future_weapons/worldgen/placed_feature/serebroore.json",
-          "src/main/resources/assets/future_weapons/blockstates/serebroore.json"
+          "src/main/resources/data/future_weapons/worldgen/configured_feature/serebroore.json"
         ]
       },
       "path": "~/metals/serebro"
@@ -2989,123 +2989,11 @@
       "registry_name": "whiteserebro",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/item/WhiteserebroItem.java",
-          "src/main/resources/assets/future_weapons/models/item/whiteserebro.json"
+          "src/main/resources/assets/future_weapons/models/item/whiteserebro.json",
+          "src/main/java/net/mcreator/futureweapons/item/WhiteserebroItem.java"
         ]
       },
       "path": "~/metals/serebro"
-    },
-    {
-      "name": "Vtsftsvifv",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vtsftsvifv",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/future_weapons/blockstates/vtsftsvifv.json",
-          "src/main/resources/assets/future_weapons/models/block/vtsftsvifv.json",
-          "src/main/java/net/mcreator/futureweapons/block/entity/VtsftsvifvBlockEntity.java",
-          "src/main/java/net/mcreator/futureweapons/block/VtsftsvifvBlock.java",
-          "src/main/resources/data/future_weapons/loot_tables/blocks/vtsftsvifv.json",
-          "src/main/resources/assets/future_weapons/models/item/vtsftsvifv.json"
-        ]
-      },
-      "path": "~/fusioner"
-    },
-    {
-      "name": "Tsivftsiivtsf",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tsivftsiivtsf",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/futureweapons/client/gui/TsivftsiivtsfScreen.java",
-          "src/main/java/net/mcreator/futureweapons/world/inventory/TsivftsiivtsfMenu.java"
-        ]
-      },
-      "path": "~/fusioner"
-    },
-    {
-      "name": "Tsvutsuvuts",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tsvutsuvuts",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/futureweapons/block/TsvutsuvutsBlock.java",
-          "src/main/resources/assets/future_weapons/blockstates/tsvutsuvuts.json",
-          "src/main/resources/assets/future_weapons/models/block/tsvutsuvuts.json",
-          "src/main/resources/data/future_weapons/loot_tables/blocks/tsvutsuvuts.json",
-          "src/main/resources/assets/future_weapons/models/item/tsvutsuvuts.json",
-          "src/main/java/net/mcreator/futureweapons/block/entity/TsvutsuvutsBlockEntity.java"
-        ]
-      },
-      "path": "~/fusioner"
-    },
-    {
-      "name": "Autsauats",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "autsauats",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/futureweapons/procedures/AutsauatsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/fusioner"
-    },
-    {
-      "name": "Crafts",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crafts",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/futureweapons/procedures/CraftsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/fusioner"
     },
     {
       "name": "Off",
@@ -3153,6 +3041,68 @@
           "src/main/java/net/mcreator/futureweapons/block/entity/OnBlockEntity.java",
           "src/main/java/net/mcreator/futureweapons/block/OnBlock.java",
           "src/main/resources/assets/future_weapons/blockstates/on.json"
+        ]
+      },
+      "path": "~/new fusioner"
+    },
+    {
+      "name": "Recipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/RecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner"
+    },
+    {
+      "name": "Craft",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/CraftProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/new fusioner"
@@ -3221,13 +3171,12 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.future_weapons.off": "Vtsftsvifv",
+      "block.future_weapons.off": "Металическая печь",
       "item.future_weapons.serebro": "Serebro",
       "item.future_weapons.schematickingal": "Schematic kingal",
       "item.future_weapons.electricsword": "Electric sword",
       "item.future_weapons.electracum": "Electro acumulator",
       "item.future_weapons.schematicelectrosword": "Schematic electro sword",
-      "block.future_weapons.tsvutsuvuts": "Vtsftsvifv",
       "item.future_weapons.molot": "Molot",
       "item.future_weapons.serebroraw": "Необработаное серебро",
       "effect.future_weapons.blooding": "Blooding",
@@ -3239,13 +3188,12 @@
       "gui.future_weapons.engineertable.button_sozdat": "Создать",
       "block.future_weapons.serebroore": "Серебряная руда",
       "item.future_weapons.testweighteditadd": "Test weight edit add",
-      "block.future_weapons.vtsftsvifv": "Vtsftsvifv",
       "gui.future_weapons.engineertable.button_izuchit": "Изучить",
       "item.future_weapons.testweighteditremove": "Testweighteditremove",
       "curios.identifier.heart": "HEART",
       "item.future_weapons.kingal": "Кинжал",
       "item.future_weapons.whiteserebro": "Белое серебро",
-      "block.future_weapons.on": "Vtsftsvifv",
+      "block.future_weapons.on": "On",
       "item.future_weapons.bionicheart": "Bionic heart",
       "effect.future_weapons.electricity": "Electricity",
       "item.future_weapons.kingalosnova": "Kingalosnova"
@@ -3256,10 +3204,6 @@
     "children": [
       {
         "name": "new fusioner",
-        "children": []
-      },
-      {
-        "name": "fusioner",
         "children": []
       },
       {

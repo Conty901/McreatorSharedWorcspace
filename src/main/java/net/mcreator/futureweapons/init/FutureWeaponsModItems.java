@@ -52,8 +52,6 @@ public class FutureWeaponsModItems {
 	public static final RegistryObject<Item> SEREBROORE = block(FutureWeaponsModBlocks.SEREBROORE);
 	public static final RegistryObject<Item> SEREBRO = REGISTRY.register("serebro", () -> new SerebroItem());
 	public static final RegistryObject<Item> WHITESEREBRO = REGISTRY.register("whiteserebro", () -> new WhiteserebroItem());
-	public static final RegistryObject<Item> VTSFTSVIFV = block(FutureWeaponsModBlocks.VTSFTSVIFV);
-	public static final RegistryObject<Item> TSVUTSUVUTS = block(FutureWeaponsModBlocks.TSVUTSUVUTS);
 	public static final RegistryObject<Item> OFF = block(FutureWeaponsModBlocks.OFF);
 	public static final RegistryObject<Item> ON = block(FutureWeaponsModBlocks.ON);
 

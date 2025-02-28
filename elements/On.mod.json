@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Vtsftsvifv",
+    "name": "On",
     "specialInformation": {
       "fixedValue": []
     },
@@ -41,11 +41,7 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [
-      {
-        "value": "TRANSPORTATION"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -60,7 +56,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 0,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -105,7 +101,7 @@
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "Tsivftsiivtsf",
+    "guiBoundTo": "FusGUI",
     "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -122,7 +118,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "Autsauats"
+      "name": "Craft"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

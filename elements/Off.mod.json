@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Vtsftsvifv",
+    "name": "Металическая печь",
     "specialInformation": {
       "fixedValue": []
     },
@@ -60,7 +60,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 0,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -105,7 +105,7 @@
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "Tsivftsiivtsf",
+    "guiBoundTo": "FusGUI",
     "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -122,7 +122,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "Autsauats"
+      "name": "Recipe"
     },
     "generateFeature": false,
     "restrictionBiomes": [],
