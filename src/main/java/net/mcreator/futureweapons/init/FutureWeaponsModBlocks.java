@@ -13,6 +13,8 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.futureweapons.block.VtsftsvifvBlock;
 import net.mcreator.futureweapons.block.TsvutsuvutsBlock;
 import net.mcreator.futureweapons.block.SerebrooreBlock;
+import net.mcreator.futureweapons.block.OnBlock;
+import net.mcreator.futureweapons.block.OffBlock;
 import net.mcreator.futureweapons.block.EngeneertableBlock;
 import net.mcreator.futureweapons.FutureWeaponsMod;
 
@@ -22,6 +24,8 @@ public class FutureWeaponsModBlocks {
 	public static final RegistryObject<Block> SEREBROORE = REGISTRY.register("serebroore", () -> new SerebrooreBlock());
 	public static final RegistryObject<Block> VTSFTSVIFV = REGISTRY.register("vtsftsvifv", () -> new VtsftsvifvBlock());
 	public static final RegistryObject<Block> TSVUTSUVUTS = REGISTRY.register("tsvutsuvuts", () -> new TsvutsuvutsBlock());
+	public static final RegistryObject<Block> OFF = REGISTRY.register("off", () -> new OffBlock());
+	public static final RegistryObject<Block> ON = REGISTRY.register("on", () -> new OnBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -1,4 +1,5 @@
 {
+  "block.future_weapons.off": "Vtsftsvifv",
   "item.future_weapons.serebro": "Serebro",
   "item.future_weapons.schematickingal": "Schematic kingal",
   "item.future_weapons.electricsword": "Electric sword",
@@ -22,6 +23,7 @@
   "curios.identifier.heart": "HEART",
   "item.future_weapons.kingal": "Кинжал",
   "item.future_weapons.whiteserebro": "Белое серебро",
+  "block.future_weapons.on": "Vtsftsvifv",
   "item.future_weapons.bionicheart": "Bionic heart",
   "effect.future_weapons.electricity": "Electricity",
   "item.future_weapons.kingalosnova": "Kingalosnova"

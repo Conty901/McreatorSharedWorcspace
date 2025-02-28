@@ -54,6 +54,8 @@ public class FutureWeaponsModItems {
 	public static final RegistryObject<Item> WHITESEREBRO = REGISTRY.register("whiteserebro", () -> new WhiteserebroItem());
 	public static final RegistryObject<Item> VTSFTSVIFV = block(FutureWeaponsModBlocks.VTSFTSVIFV);
 	public static final RegistryObject<Item> TSVUTSUVUTS = block(FutureWeaponsModBlocks.TSVUTSUVUTS);
+	public static final RegistryObject<Item> OFF = block(FutureWeaponsModBlocks.OFF);
+	public static final RegistryObject<Item> ON = block(FutureWeaponsModBlocks.ON);
 
 	// Start of user code block custom items
 	// End of user code block custom items

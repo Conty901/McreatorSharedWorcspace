@@ -3128,6 +3128,56 @@
           }
         ]
       }
+    },
+    {
+      "name": "Off",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/block/entity/OffBlockEntity.java",
+          "src/main/java/net/mcreator/futureweapons/block/OffBlock.java",
+          "src/main/resources/assets/future_weapons/blockstates/off.json",
+          "src/main/resources/assets/future_weapons/models/block/off.json",
+          "src/main/resources/assets/future_weapons/models/item/off.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/off.json"
+        ]
+      },
+      "path": "~/new fusioner"
+    },
+    {
+      "name": "On",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/on.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/on.json",
+          "src/main/resources/assets/future_weapons/models/block/on.json",
+          "src/main/java/net/mcreator/futureweapons/block/entity/OnBlockEntity.java",
+          "src/main/java/net/mcreator/futureweapons/block/OnBlock.java",
+          "src/main/resources/assets/future_weapons/blockstates/on.json"
+        ]
+      },
+      "path": "~/new fusioner"
+    },
+    {
+      "name": "FusGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fus_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/client/gui/FusGUIScreen.java",
+          "src/main/java/net/mcreator/futureweapons/world/inventory/FusGUIMenu.java"
+        ]
+      },
+      "path": "~/new fusioner"
     }
   ],
   "variable_elements": [
@@ -3193,6 +3243,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.future_weapons.off": "Vtsftsvifv",
       "item.future_weapons.serebro": "Serebro",
       "item.future_weapons.schematickingal": "Schematic kingal",
       "item.future_weapons.electricsword": "Electric sword",
@@ -3216,6 +3267,7 @@
       "curios.identifier.heart": "HEART",
       "item.future_weapons.kingal": "Кинжал",
       "item.future_weapons.whiteserebro": "Белое серебро",
+      "block.future_weapons.on": "Vtsftsvifv",
       "item.future_weapons.bionicheart": "Bionic heart",
       "effect.future_weapons.electricity": "Electricity",
       "item.future_weapons.kingalosnova": "Kingalosnova"
@@ -3292,7 +3344,7 @@
         "children": []
       },
       {
-        "name": "goyda",
+        "name": "new fusioner",
         "children": []
       }
     ]

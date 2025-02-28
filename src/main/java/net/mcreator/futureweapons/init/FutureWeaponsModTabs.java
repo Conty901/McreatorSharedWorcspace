@@ -32,6 +32,8 @@ public class FutureWeaponsModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(FutureWeaponsModBlocks.VTSFTSVIFV.get().asItem());
 			tabData.accept(FutureWeaponsModBlocks.TSVUTSUVUTS.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.OFF.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.ON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(FutureWeaponsModItems.KINGAL.get());
 			tabData.accept(FutureWeaponsModItems.ELECTRICSWORD.get());
