@@ -3003,11 +3003,11 @@
       "registry_name": "off",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/block/entity/OffBlockEntity.java",
-          "src/main/java/net/mcreator/futureweapons/block/OffBlock.java",
+          "src/main/resources/assets/future_weapons/models/item/off.json",
           "src/main/resources/assets/future_weapons/blockstates/off.json",
           "src/main/resources/assets/future_weapons/models/block/off.json",
-          "src/main/resources/assets/future_weapons/models/item/off.json",
+          "src/main/java/net/mcreator/futureweapons/block/OffBlock.java",
+          "src/main/java/net/mcreator/futureweapons/block/entity/OffBlockEntity.java",
           "src/main/resources/data/future_weapons/loot_tables/blocks/off.json"
         ]
       },
@@ -3035,11 +3035,11 @@
       "registry_name": "on",
       "metadata": {
         "files": [
-          "src/main/resources/assets/future_weapons/models/item/on.json",
           "src/main/resources/data/future_weapons/loot_tables/blocks/on.json",
           "src/main/resources/assets/future_weapons/models/block/on.json",
-          "src/main/java/net/mcreator/futureweapons/block/entity/OnBlockEntity.java",
+          "src/main/resources/assets/future_weapons/models/item/on.json",
           "src/main/java/net/mcreator/futureweapons/block/OnBlock.java",
+          "src/main/java/net/mcreator/futureweapons/block/entity/OnBlockEntity.java",
           "src/main/resources/assets/future_weapons/blockstates/on.json"
         ]
       },

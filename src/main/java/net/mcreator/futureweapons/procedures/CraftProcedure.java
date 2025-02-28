@@ -260,7 +260,7 @@ public class CraftProcedure {
 					{
 						BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 						if (_ent != null) {
-							final int _slotid = 0;
+							final int _slotid = 3;
 							final ItemStack _setstack = new ItemStack(FutureWeaponsModItems.WHITESEREBRO.get()).copy();
 							_setstack.setCount((int) (new Object() {
 								public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
