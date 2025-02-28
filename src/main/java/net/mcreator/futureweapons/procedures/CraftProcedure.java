@@ -177,7 +177,7 @@ public class CraftProcedure {
 				} else {
 					{
 						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockState _bs = FutureWeaponsModBlocks.OFF.get().defaultBlockState();
+						BlockState _bs = FutureWeaponsModBlocks.ON_1.get().defaultBlockState();
 						BlockState _bso = world.getBlockState(_bp);
 						for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 							Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -281,7 +281,7 @@ public class CraftProcedure {
 			} else {
 				{
 					BlockPos _bp = BlockPos.containing(x, y, z);
-					BlockState _bs = FutureWeaponsModBlocks.OFF.get().defaultBlockState();
+					BlockState _bs = FutureWeaponsModBlocks.ON_1.get().defaultBlockState();
 					BlockState _bso = world.getBlockState(_bp);
 					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

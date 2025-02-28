@@ -77,16 +77,16 @@ public class FusGUIMenu extends AbstractContainerMenu implements Supplier<Map<In
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 34, 35) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 35) {
 			private final int slot = 0;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 85, 17) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 79, 17) {
 			private final int slot = 1;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 85, 53) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 53) {
 			private final int slot = 2;
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 120, 35) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 124, 35) {
 			private final int slot = 3;
 
 			@Override

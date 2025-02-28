@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.futureweapons.block.entity.OnBlockEntity;
+import net.mcreator.futureweapons.block.entity.On1BlockEntity;
 import net.mcreator.futureweapons.block.entity.OffBlockEntity;
 import net.mcreator.futureweapons.FutureWeaponsMod;
 
@@ -19,6 +20,7 @@ public class FutureWeaponsModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, FutureWeaponsMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> OFF = register("off", FutureWeaponsModBlocks.OFF, OffBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ON = register("on", FutureWeaponsModBlocks.ON, OnBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ON_1 = register("on_1", FutureWeaponsModBlocks.ON_1, On1BlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

@@ -31,11 +31,6 @@ public class FusGUIScreen extends AbstractContainerScreen<FusGUIMenu> {
 		this.imageHeight = 166;
 	}
 
-	@Override
-	public boolean isPauseScreen() {
-		return true;
-	}
-
 	private static final ResourceLocation texture = new ResourceLocation("future_weapons:textures/screens/fus_gui.png");
 
 	@Override
@@ -51,6 +46,9 @@ public class FusGUIScreen extends AbstractContainerScreen<FusGUIMenu> {
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fusion.png"), this.leftPos + 97, this.topPos + 25, 0, 0, 24, 36, 24, 36);
+
 		RenderSystem.disableBlend();
 	}
 
