@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "future_weapons:off",
+    "future_weapons:on",
     "future_weapons:serebroore"
   ]
 }

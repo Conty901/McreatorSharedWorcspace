@@ -3,7 +3,7 @@
   "textures": {
     "all": "future_weapons:block/engeneer_desk",
     "particle": "future_weapons:block/engeneer_desk",
-    "2": "future_weapons:block/engeneer_desk"
+    "1": "future_weapons:block/engeneer_desk"
   },
   "render_type": "cutout"
 }

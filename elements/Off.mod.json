@@ -46,7 +46,7 @@
         "value": "TRANSPORTATION"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -102,10 +102,10 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "NONE",
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "FusGUI",
+    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "Open1"
+    },
     "onTickUpdate": {
       "name": "Recipe"
     },

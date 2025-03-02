@@ -3,7 +3,6 @@ package net.mcreator.futureweapons.procedures;
 import net.minecraftforge.items.IItemHandlerModifiable;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
-import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Blocks;
@@ -19,7 +18,6 @@ import net.mcreator.futureweapons.init.FutureWeaponsModBlocks;
 
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.Map;
 
 public class CraftProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -155,7 +153,7 @@ public class CraftProcedure {
 											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, BlockPos.containing(x, y, z), "Fuel") + 180));
+								}.getValue(world, BlockPos.containing(x, y, z), "Fuel") + 200));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -174,19 +172,25 @@ public class CraftProcedure {
 							}
 						}
 					}
-				} else {
+				} else if (new Object() {
+					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+						BlockEntity blockEntity = world.getBlockEntity(pos);
+						if (blockEntity != null)
+							return blockEntity.getPersistentData().getDouble(tag);
+						return -1;
+					}
+				}.getValue(world, BlockPos.containing(x, y, z), "Fuel") <= 1 && new Object() {
+					public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicInteger _retval = new AtomicInteger(0);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+						return _retval.get();
+					}
+				}.getAmount(world, BlockPos.containing(x, y, z), 0) < 1) {
 					{
 						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockState _bs = FutureWeaponsModBlocks.ON_1.get().defaultBlockState();
-						BlockState _bso = world.getBlockState(_bp);
-						for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-							Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-							if (_property != null && _bs.getValue(_property) != null)
-								try {
-									_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-								} catch (Exception e) {
-								}
-						}
+						BlockState _bs = FutureWeaponsModBlocks.OFF.get().defaultBlockState();
 						BlockEntity _be = world.getBlockEntity(_bp);
 						CompoundTag _bnbt = null;
 						if (_be != null) {
@@ -225,72 +229,97 @@ public class CraftProcedure {
 										return blockEntity.getPersistentData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, BlockPos.containing(x, y, z), "Fuel")) - 10));
+							}.getValue(world, BlockPos.containing(x, y, z), "Fuel")) - 0.1));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
-					{
-						BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
-						if (_ent != null) {
-							final int _slotid = 1;
-							final int _amount = 1;
-							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
-								if (capability instanceof IItemHandlerModifiable) {
-									ItemStack _stk = capability.getStackInSlot(_slotid).copy();
-									_stk.shrink(_amount);
-									((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+					if (!world.isClientSide()) {
+						BlockPos _bp = BlockPos.containing(x, y, z);
+						BlockEntity _blockEntity = world.getBlockEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_blockEntity != null)
+							_blockEntity.getPersistentData().putDouble("Completment", (new Object() {
+								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+									BlockEntity blockEntity = world.getBlockEntity(pos);
+									if (blockEntity != null)
+										return blockEntity.getPersistentData().getDouble(tag);
+									return -1;
 								}
-							});
-						}
+							}.getValue(world, BlockPos.containing(x, y, z), "Completment") + 1));
+						if (world instanceof Level _level)
+							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
-					{
-						BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
-						if (_ent != null) {
-							final int _slotid = 2;
-							final int _amount = 1;
-							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
-								if (capability instanceof IItemHandlerModifiable) {
-									ItemStack _stk = capability.getStackInSlot(_slotid).copy();
-									_stk.shrink(_amount);
-									((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
-								}
-							});
+					if (new Object() {
+						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+							BlockEntity blockEntity = world.getBlockEntity(pos);
+							if (blockEntity != null)
+								return blockEntity.getPersistentData().getDouble(tag);
+							return -1;
 						}
-					}
-					{
-						BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
-						if (_ent != null) {
-							final int _slotid = 3;
-							final ItemStack _setstack = new ItemStack(FutureWeaponsModItems.WHITESEREBRO.get()).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
-									AtomicInteger _retval = new AtomicInteger(0);
-									BlockEntity _ent = world.getBlockEntity(pos);
-									if (_ent != null)
-										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
-									return _retval.get();
-								}
-							}.getAmount(world, BlockPos.containing(x, y, z), 3) + 1));
-							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
-								if (capability instanceof IItemHandlerModifiable)
-									((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
-							});
+					}.getValue(world, BlockPos.containing(x, y, z), "Completment") == 440) {
+						if (!world.isClientSide()) {
+							BlockPos _bp = BlockPos.containing(x, y, z);
+							BlockEntity _blockEntity = world.getBlockEntity(_bp);
+							BlockState _bs = world.getBlockState(_bp);
+							if (_blockEntity != null)
+								_blockEntity.getPersistentData().putDouble("Completment", 0);
+							if (world instanceof Level _level)
+								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+						}
+						{
+							BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+							if (_ent != null) {
+								final int _slotid = 1;
+								final int _amount = 1;
+								_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+									if (capability instanceof IItemHandlerModifiable) {
+										ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+										_stk.shrink(_amount);
+										((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+									}
+								});
+							}
+						}
+						{
+							BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+							if (_ent != null) {
+								final int _slotid = 2;
+								final int _amount = 1;
+								_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+									if (capability instanceof IItemHandlerModifiable) {
+										ItemStack _stk = capability.getStackInSlot(_slotid).copy();
+										_stk.shrink(_amount);
+										((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
+									}
+								});
+							}
+						}
+						{
+							BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+							if (_ent != null) {
+								final int _slotid = 3;
+								final ItemStack _setstack = new ItemStack(FutureWeaponsModItems.WHITESEREBRO.get()).copy();
+								_setstack.setCount((int) (new Object() {
+									public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicInteger _retval = new AtomicInteger(0);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+										return _retval.get();
+									}
+								}.getAmount(world, BlockPos.containing(x, y, z), 3) + 1));
+								_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+									if (capability instanceof IItemHandlerModifiable)
+										((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+								});
+							}
 						}
 					}
 				}
 			} else {
 				{
 					BlockPos _bp = BlockPos.containing(x, y, z);
-					BlockState _bs = FutureWeaponsModBlocks.ON_1.get().defaultBlockState();
-					BlockState _bso = world.getBlockState(_bp);
-					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-						if (_property != null && _bs.getValue(_property) != null)
-							try {
-								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-							} catch (Exception e) {
-							}
-					}
+					BlockState _bs = FutureWeaponsModBlocks.OFF.get().defaultBlockState();
 					BlockEntity _be = world.getBlockEntity(_bp);
 					CompoundTag _bnbt = null;
 					if (_be != null) {
@@ -313,15 +342,6 @@ public class CraftProcedure {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FutureWeaponsModBlocks.OFF.get().defaultBlockState();
-				BlockState _bso = world.getBlockState(_bp);
-				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-					if (_property != null && _bs.getValue(_property) != null)
-						try {
-							_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-						} catch (Exception e) {
-						}
-				}
 				BlockEntity _be = world.getBlockEntity(_bp);
 				CompoundTag _bnbt = null;
 				if (_be != null) {
