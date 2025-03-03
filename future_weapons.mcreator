@@ -118,6 +118,7 @@
           "src/main/resources/assets/future_weapons/models/item/engeneertable.json",
           "src/main/java/net/mcreator/futureweapons/block/EngeneertableBlock.java",
           "src/main/resources/assets/future_weapons/blockstates/engeneertable.json",
+          "src/main/java/net/mcreator/futureweapons/block/entity/EngeneertableBlockEntity.java",
           "src/main/resources/data/future_weapons/loot_tables/blocks/engeneertable.json"
         ]
       },
@@ -145,9 +146,9 @@
       "registry_name": "engineertable",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/network/EngineertableButtonMessage.java",
-          "src/main/java/net/mcreator/futureweapons/client/gui/EngineertableScreen.java",
-          "src/main/java/net/mcreator/futureweapons/world/inventory/EngineertableMenu.java"
+          "src/main/java/net/mcreator/futureweapons/network/EngineertableSlotMessage.java",
+          "src/main/java/net/mcreator/futureweapons/world/inventory/EngineertableMenu.java",
+          "src/main/java/net/mcreator/futureweapons/client/gui/EngineertableScreen.java"
         ]
       },
       "path": "~/engeneer_table"
@@ -217,7 +218,8 @@
             "name": "entity",
             "type": "entity"
           }
-        ]
+        ],
+        "return_type": "logic"
       },
       "path": "~/engeneer_table"
     },
@@ -262,10 +264,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -2729,10 +2727,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -3813,6 +3807,84 @@
         ]
       },
       "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "Ochistit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochistit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/OchistitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/engeneer_table"
+    },
+    {
+      "name": "Craftkingal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftkingal",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/CraftkingalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/engeneer_table"
+    },
+    {
+      "name": "Craftelectricsword",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftelectricsword",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/CraftelectricswordProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/engeneer_table"
+    },
+    {
+      "name": "Engineertabletickprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engineertabletickprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/EngineertabletickprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/engeneer_table"
     }
   ],
   "variable_elements": [
@@ -3820,7 +3892,7 @@
       "name": "stamina",
       "type": "number",
       "scope": "player_persistent",
-      "value": "100.0"
+      "value": "2.0"
     },
     {
       "name": "stamina_add",
@@ -3857,6 +3929,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "adding_delay",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
     }
   ],
   "sound_elements": [],

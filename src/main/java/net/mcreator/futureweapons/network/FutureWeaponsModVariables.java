@@ -73,6 +73,7 @@ public class FutureWeaponsModVariables {
 			clone.gamemode = original.gamemode;
 			clone.weight = original.weight;
 			clone.power = original.power;
+			clone.adding_delay = original.adding_delay;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -109,13 +110,14 @@ public class FutureWeaponsModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double stamina = 100.0;
+		public double stamina = 2.0;
 		public double stamina_add = 0.3;
 		public double stamina_remove = 0.7;
 		public double stamina_max = 100.0;
 		public double gamemode = 0;
 		public double weight = 100.0;
 		public double power = 0;
+		public double adding_delay = 0.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -131,6 +133,7 @@ public class FutureWeaponsModVariables {
 			nbt.putDouble("gamemode", gamemode);
 			nbt.putDouble("weight", weight);
 			nbt.putDouble("power", power);
+			nbt.putDouble("adding_delay", adding_delay);
 			return nbt;
 		}
 
@@ -143,6 +146,7 @@ public class FutureWeaponsModVariables {
 			gamemode = nbt.getDouble("gamemode");
 			weight = nbt.getDouble("weight");
 			power = nbt.getDouble("power");
+			adding_delay = nbt.getDouble("adding_delay");
 		}
 	}
 
@@ -174,6 +178,7 @@ public class FutureWeaponsModVariables {
 					variables.gamemode = message.data.gamemode;
 					variables.weight = message.data.weight;
 					variables.power = message.data.power;
+					variables.adding_delay = message.data.adding_delay;
 				}
 			});
 			context.setPacketHandled(true);

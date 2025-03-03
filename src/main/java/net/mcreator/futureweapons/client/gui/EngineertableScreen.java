@@ -6,12 +6,9 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.futureweapons.world.inventory.EngineertableMenu;
-import net.mcreator.futureweapons.network.EngineertableButtonMessage;
-import net.mcreator.futureweapons.FutureWeaponsMod;
 
 import java.util.HashMap;
 
@@ -22,7 +19,6 @@ public class EngineertableScreen extends AbstractContainerScreen<EngineertableMe
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_sozdat;
 
 	public EngineertableScreen(EngineertableMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -77,13 +73,5 @@ public class EngineertableScreen extends AbstractContainerScreen<EngineertableMe
 	@Override
 	public void init() {
 		super.init();
-		button_sozdat = Button.builder(Component.translatable("gui.future_weapons.engineertable.button_sozdat"), e -> {
-			if (true) {
-				FutureWeaponsMod.PACKET_HANDLER.sendToServer(new EngineertableButtonMessage(0, x, y, z));
-				EngineertableButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
-		}).bounds(this.leftPos + 51, this.topPos + 64, 61, 20).build();
-		guistate.put("button:button_sozdat", button_sozdat);
-		this.addRenderableWidget(button_sozdat);
 	}
 }

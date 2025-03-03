@@ -13,10 +13,12 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.futureweapons.block.entity.OnBlockEntity;
 import net.mcreator.futureweapons.block.entity.OffBlockEntity;
+import net.mcreator.futureweapons.block.entity.EngeneertableBlockEntity;
 import net.mcreator.futureweapons.FutureWeaponsMod;
 
 public class FutureWeaponsModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, FutureWeaponsMod.MODID);
+	public static final RegistryObject<BlockEntityType<?>> ENGENEERTABLE = register("engeneertable", FutureWeaponsModBlocks.ENGENEERTABLE, EngeneertableBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> OFF = register("off", FutureWeaponsModBlocks.OFF, OffBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ON = register("on", FutureWeaponsModBlocks.ON, OnBlockEntity::new);
 
