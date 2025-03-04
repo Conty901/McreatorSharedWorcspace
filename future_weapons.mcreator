@@ -204,26 +204,6 @@
       "path": "~/weapons/kingal"
     },
     {
-      "name": "Izuchit",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "izuchit",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/futureweapons/procedures/IzuchitProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic"
-      },
-      "path": "~/engeneer_table"
-    },
-    {
       "name": "HEART",
       "type": "curiosslot",
       "compiles": true,

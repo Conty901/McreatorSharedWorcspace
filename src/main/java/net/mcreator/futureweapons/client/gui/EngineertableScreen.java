@@ -31,11 +31,6 @@ public class EngineertableScreen extends AbstractContainerScreen<EngineertableMe
 		this.imageHeight = 170;
 	}
 
-	@Override
-	public boolean isPauseScreen() {
-		return true;
-	}
-
 	private static final ResourceLocation texture = new ResourceLocation("future_weapons:textures/screens/engineertable.png");
 
 	@Override
