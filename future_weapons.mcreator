@@ -3865,6 +3865,20 @@
         ]
       },
       "path": "~/engeneer_table"
+    },
+    {
+      "name": "Katana",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/KatanaItem.java",
+          "src/main/resources/assets/future_weapons/models/item/katana.json"
+        ]
+      },
+      "path": "~/weapons/katana"
     }
   ],
   "variable_elements": [
@@ -3931,6 +3945,7 @@
       "~CUSTOM:Serebroore"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Katana",
       "~CUSTOM:Electricsword",
       "~CUSTOM:Kingal"
     ]
@@ -3943,6 +3958,7 @@
       "item.future_weapons.schematickingal": "Schematic kingal",
       "item.future_weapons.electricsword": "Electric sword",
       "item.future_weapons.electracum": "Electro acumulator",
+      "item.future_weapons.katana": "Katana",
       "item.future_weapons.schematicelectrosword": "Schematic electro sword",
       "item.future_weapons.molot": "Molot",
       "item.future_weapons.serebroraw": "Необработаное серебро",
@@ -4007,6 +4023,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "katana",
+            "children": []
           }
         ]
       },

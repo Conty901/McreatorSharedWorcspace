@@ -23,6 +23,7 @@ import net.mcreator.futureweapons.item.MolotItem;
 import net.mcreator.futureweapons.item.KingalosnovaItem;
 import net.mcreator.futureweapons.item.KingallezvieItem;
 import net.mcreator.futureweapons.item.KingalItem;
+import net.mcreator.futureweapons.item.KatanaItem;
 import net.mcreator.futureweapons.item.ElectswruchkaItem;
 import net.mcreator.futureweapons.item.ElectricswordItem;
 import net.mcreator.futureweapons.item.ElectracumItem;
@@ -54,6 +55,7 @@ public class FutureWeaponsModItems {
 	public static final RegistryObject<Item> WHITESEREBRO = REGISTRY.register("whiteserebro", () -> new WhiteserebroItem());
 	public static final RegistryObject<Item> OFF = block(FutureWeaponsModBlocks.OFF);
 	public static final RegistryObject<Item> ON = block(FutureWeaponsModBlocks.ON);
+	public static final RegistryObject<Item> KATANA = REGISTRY.register("katana", () -> new KatanaItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

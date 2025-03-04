@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "future_weapons:katana",
     "future_weapons:electricsword",
     "future_weapons:kingal"
   ]

@@ -34,6 +34,7 @@ public class FutureWeaponsModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(FutureWeaponsModItems.KINGAL.get());
 			tabData.accept(FutureWeaponsModItems.ELECTRICSWORD.get());
+			tabData.accept(FutureWeaponsModItems.KATANA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(FutureWeaponsModItems.SCHEMATICKINGAL.get());
 			tabData.accept(FutureWeaponsModItems.BIONICHEART_2.get());
