@@ -23,6 +23,9 @@ public class FutureWeaponsModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(FutureWeaponsModBlocks.ENGENEERTABLE.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.BLOCKOFSEREBRO.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.BLOCKOFWHITESEREBRO.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.BLOCKOFLEAD.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(FutureWeaponsModItems.KINGALLEZVIE.get());
 			tabData.accept(FutureWeaponsModItems.KINGALOSNOVA.get());
@@ -45,11 +48,15 @@ public class FutureWeaponsModTabs {
 			tabData.accept(FutureWeaponsModItems.SEREBRORAW.get());
 			tabData.accept(FutureWeaponsModItems.SEREBRO.get());
 			tabData.accept(FutureWeaponsModItems.WHITESEREBRO.get());
+			tabData.accept(FutureWeaponsModItems.LEAD.get());
+			tabData.accept(FutureWeaponsModItems.RAWLEAD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(FutureWeaponsModItems.BIONICHEART.get());
 			tabData.accept(FutureWeaponsModItems.MOLOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(FutureWeaponsModBlocks.SEREBROORE.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.LEADORE.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.LEADORE_2.get().asItem());
 		}
 	}
 }

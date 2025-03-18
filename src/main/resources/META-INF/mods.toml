@@ -27,6 +27,12 @@ authors="kosty_0lfbbwf"
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.future_weapons]]
+    modId="createnew"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

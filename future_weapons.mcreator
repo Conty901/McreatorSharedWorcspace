@@ -27,8 +27,8 @@
       "registry_name": "kingal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/item/KingalItem.java",
-          "src/main/resources/assets/future_weapons/models/item/kingal.json"
+          "src/main/resources/assets/future_weapons/models/item/kingal.json",
+          "src/main/java/net/mcreator/futureweapons/item/KingalItem.java"
         ]
       },
       "path": "~/weapons/kingal"
@@ -224,8 +224,8 @@
       "registry_name": "bionicheart",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/item/BionicheartItem.java",
-          "src/main/resources/assets/future_weapons/models/item/bionicheart.json"
+          "src/main/resources/assets/future_weapons/models/item/bionicheart.json",
+          "src/main/java/net/mcreator/futureweapons/item/BionicheartItem.java"
         ]
       },
       "path": "~/implants"
@@ -708,8 +708,8 @@
       "registry_name": "bionicheart_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/item/Bionicheart2Item.java",
-          "src/main/resources/assets/future_weapons/models/item/bionicheart_2.json"
+          "src/main/resources/assets/future_weapons/models/item/bionicheart_2.json",
+          "src/main/java/net/mcreator/futureweapons/item/Bionicheart2Item.java"
         ]
       },
       "path": "~/implants"
@@ -2687,8 +2687,8 @@
       "registry_name": "testweighteditremove",
       "metadata": {
         "files": [
-          "src/main/resources/assets/future_weapons/models/item/testweighteditremove.json",
-          "src/main/java/net/mcreator/futureweapons/item/TestweighteditremoveItem.java"
+          "src/main/java/net/mcreator/futureweapons/item/TestweighteditremoveItem.java",
+          "src/main/resources/assets/future_weapons/models/item/testweighteditremove.json"
         ]
       },
       "path": "~/osnova/weight"
@@ -2739,8 +2739,8 @@
       "registry_name": "kingallezvie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/item/KingallezvieItem.java",
-          "src/main/resources/assets/future_weapons/models/item/kingallezvie.json"
+          "src/main/resources/assets/future_weapons/models/item/kingallezvie.json",
+          "src/main/java/net/mcreator/futureweapons/item/KingallezvieItem.java"
         ]
       },
       "path": "~/weapons/kingal/elements"
@@ -2780,8 +2780,8 @@
       "registry_name": "molot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/item/MolotItem.java",
-          "src/main/resources/assets/future_weapons/models/item/molot.json"
+          "src/main/resources/assets/future_weapons/models/item/molot.json",
+          "src/main/java/net/mcreator/futureweapons/item/MolotItem.java"
         ]
       },
       "path": "~/engeneer_table"
@@ -2861,8 +2861,8 @@
       "registry_name": "acumempty",
       "metadata": {
         "files": [
-          "src/main/resources/assets/future_weapons/models/item/acumempty.json",
-          "src/main/java/net/mcreator/futureweapons/item/ACUMEMPTYItem.java"
+          "src/main/java/net/mcreator/futureweapons/item/ACUMEMPTYItem.java",
+          "src/main/resources/assets/future_weapons/models/item/acumempty.json"
         ]
       },
       "path": "~/weapons/electr_sw/elements"
@@ -2875,8 +2875,8 @@
       "registry_name": "schematicelectrosword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/future_weapons/models/item/schematicelectrosword.json",
-          "src/main/java/net/mcreator/futureweapons/item/SchematicelectroswordItem.java"
+          "src/main/java/net/mcreator/futureweapons/item/SchematicelectroswordItem.java",
+          "src/main/resources/assets/future_weapons/models/item/schematicelectrosword.json"
         ]
       },
       "path": "~/weapons/electr_sw"
@@ -2916,14 +2916,14 @@
       "registry_name": "serebroore",
       "metadata": {
         "files": [
+          "src/main/resources/data/future_weapons/worldgen/configured_feature/serebroore.json",
           "src/main/java/net/mcreator/futureweapons/block/SerebrooreBlock.java",
-          "src/main/resources/data/future_weapons/loot_tables/blocks/serebroore.json",
-          "src/main/resources/data/future_weapons/worldgen/placed_feature/serebroore.json",
-          "src/main/resources/assets/future_weapons/blockstates/serebroore.json",
           "src/main/resources/data/future_weapons/forge/biome_modifier/serebroore_biome_modifier.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/serebroore.json",
           "src/main/resources/assets/future_weapons/models/item/serebroore.json",
           "src/main/resources/assets/future_weapons/models/block/serebroore.json",
-          "src/main/resources/data/future_weapons/worldgen/configured_feature/serebroore.json"
+          "src/main/resources/data/future_weapons/worldgen/placed_feature/serebroore.json",
+          "src/main/resources/assets/future_weapons/blockstates/serebroore.json"
         ]
       },
       "path": "~/metals/serebro"
@@ -2963,8 +2963,8 @@
       "registry_name": "whiteserebro",
       "metadata": {
         "files": [
-          "src/main/resources/assets/future_weapons/models/item/whiteserebro.json",
-          "src/main/java/net/mcreator/futureweapons/item/WhiteserebroItem.java"
+          "src/main/java/net/mcreator/futureweapons/item/WhiteserebroItem.java",
+          "src/main/resources/assets/future_weapons/models/item/whiteserebro.json"
         ]
       },
       "path": "~/metals/serebro"
@@ -3879,6 +3879,138 @@
         ]
       },
       "path": "~/weapons/katana"
+    },
+    {
+      "name": "Blockofserebro",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofserebro",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/block/blockofserebro.json",
+          "src/main/resources/assets/future_weapons/blockstates/blockofserebro.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/blockofserebro.json",
+          "src/main/resources/assets/future_weapons/models/item/blockofserebro.json",
+          "src/main/java/net/mcreator/futureweapons/block/BlockofserebroBlock.java"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Blockofwhiteserebro",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofwhiteserebro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/block/BlockofwhiteserebroBlock.java",
+          "src/main/resources/assets/future_weapons/blockstates/blockofwhiteserebro.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/blockofwhiteserebro.json",
+          "src/main/resources/assets/future_weapons/models/item/blockofwhiteserebro.json",
+          "src/main/resources/assets/future_weapons/models/block/blockofwhiteserebro.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Lead",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/LeadItem.java",
+          "src/main/resources/assets/future_weapons/models/item/lead.json"
+        ]
+      },
+      "path": "~/metals/lead"
+    },
+    {
+      "name": "Leadore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/worldgen/placed_feature/leadore.json",
+          "src/main/resources/assets/future_weapons/blockstates/leadore.json",
+          "src/main/resources/assets/future_weapons/models/block/leadore.json",
+          "src/main/resources/data/future_weapons/forge/biome_modifier/leadore_biome_modifier.json",
+          "src/main/resources/data/future_weapons/worldgen/configured_feature/leadore.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/leadore.json",
+          "src/main/java/net/mcreator/futureweapons/block/LeadoreBlock.java",
+          "src/main/resources/assets/future_weapons/models/item/leadore.json"
+        ]
+      },
+      "path": "~/metals/lead"
+    },
+    {
+      "name": "Leadore2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadore_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/block/Leadore2Block.java",
+          "src/main/resources/assets/future_weapons/models/block/leadore_2.json",
+          "src/main/resources/data/future_weapons/forge/biome_modifier/leadore_2_biome_modifier.json",
+          "src/main/resources/assets/future_weapons/models/item/leadore_2.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/leadore_2.json",
+          "src/main/resources/data/future_weapons/worldgen/configured_feature/leadore_2.json",
+          "src/main/resources/data/future_weapons/worldgen/placed_feature/leadore_2.json",
+          "src/main/resources/assets/future_weapons/blockstates/leadore_2.json"
+        ]
+      },
+      "path": "~/metals/lead"
+    },
+    {
+      "name": "Rawlead",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawlead",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/RawleadItem.java",
+          "src/main/resources/assets/future_weapons/models/item/rawlead.json"
+        ]
+      },
+      "path": "~/metals/lead"
+    },
+    {
+      "name": "Leadsmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/leadrecipe.json"
+        ]
+      },
+      "path": "~/metals/lead"
+    },
+    {
+      "name": "Blockoflead",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockoflead",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/blockoflead.json",
+          "src/main/java/net/mcreator/futureweapons/block/BlockofleadBlock.java",
+          "src/main/resources/assets/future_weapons/blockstates/blockoflead.json",
+          "src/main/resources/assets/future_weapons/models/block/blockoflead.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/blockoflead.json"
+        ]
+      },
+      "path": "~/metals/lead"
     }
   ],
   "variable_elements": [
@@ -3934,14 +4066,24 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Blockoflead",
+      "~CUSTOM:Leadore",
+      "~CUSTOM:Leadore2",
+      "~CUSTOM:Blockofwhiteserebro",
+      "~CUSTOM:Blockofserebro",
       "~CUSTOM:Serebroore"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Engeneertable"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:Off",
+      "~CUSTOM:Blockoflead",
+      "~CUSTOM:Leadore2",
+      "~CUSTOM:Leadore",
+      "~CUSTOM:Blockofwhiteserebro",
+      "~CUSTOM:Blockofserebro",
       "~CUSTOM:On",
+      "~CUSTOM:Off",
       "~CUSTOM:Serebroore"
     ],
     "ITEMS:minecraft:swords": [
@@ -3955,25 +4097,32 @@
     "en_us": {
       "block.future_weapons.off": "Металическая печь",
       "item.future_weapons.serebro": "Serebro",
+      "item.future_weapons.lead": "Lead",
       "item.future_weapons.schematickingal": "Schematic kingal",
+      "block.future_weapons.leadore_2": "Lead deepslate ore",
       "item.future_weapons.electricsword": "Electric sword",
       "item.future_weapons.electracum": "Electro acumulator",
+      "block.future_weapons.blockofserebro": "Block of serebro",
       "item.future_weapons.katana": "Katana",
+      "block.future_weapons.leadore": "Lead ore",
       "item.future_weapons.schematicelectrosword": "Schematic electro sword",
       "item.future_weapons.molot": "Molot",
       "item.future_weapons.serebroraw": "Необработаное серебро",
       "effect.future_weapons.blooding": "Blooding",
       "item.future_weapons.kingallezvie": "Kingal lezvie",
       "item.future_weapons.bionicheart_2": "Bionic heart 2",
+      "item.future_weapons.rawlead": "Raw lead",
       "block.future_weapons.engeneertable": "Engeneer table",
       "item.future_weapons.acumempty": "ACUMEMPTY",
       "item.future_weapons.electswruchka": "Electro sword ruchka",
       "gui.future_weapons.engineertable.button_sozdat": "Создать",
       "block.future_weapons.serebroore": "Серебряная руда",
       "item.future_weapons.testweighteditadd": "Test weight edit add",
+      "block.future_weapons.blockoflead": "Block of lead",
       "gui.future_weapons.engineertable.button_izuchit": "Изучить",
       "item.future_weapons.testweighteditremove": "Testweighteditremove",
       "curios.identifier.heart": "HEART",
+      "block.future_weapons.blockofwhiteserebro": "Block of white serebro",
       "item.future_weapons.kingal": "Кинжал",
       "item.future_weapons.whiteserebro": "Белое серебро",
       "block.future_weapons.on": "On",
@@ -3999,6 +4148,10 @@
         "children": [
           {
             "name": "serebro",
+            "children": []
+          },
+          {
+            "name": "lead",
             "children": []
           }
         ]
@@ -4075,7 +4228,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "curios_api"
+      "curios_api",
+      "createnew"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Thanks to the Mcreator",

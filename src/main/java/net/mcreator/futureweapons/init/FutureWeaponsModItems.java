@@ -19,7 +19,9 @@ import net.mcreator.futureweapons.item.SerebrorawItem;
 import net.mcreator.futureweapons.item.SerebroItem;
 import net.mcreator.futureweapons.item.SchematickingalItem;
 import net.mcreator.futureweapons.item.SchematicelectroswordItem;
+import net.mcreator.futureweapons.item.RawleadItem;
 import net.mcreator.futureweapons.item.MolotItem;
+import net.mcreator.futureweapons.item.LeadItem;
 import net.mcreator.futureweapons.item.KingalosnovaItem;
 import net.mcreator.futureweapons.item.KingallezvieItem;
 import net.mcreator.futureweapons.item.KingalItem;
@@ -56,6 +58,13 @@ public class FutureWeaponsModItems {
 	public static final RegistryObject<Item> OFF = block(FutureWeaponsModBlocks.OFF);
 	public static final RegistryObject<Item> ON = block(FutureWeaponsModBlocks.ON);
 	public static final RegistryObject<Item> KATANA = REGISTRY.register("katana", () -> new KatanaItem());
+	public static final RegistryObject<Item> BLOCKOFSEREBRO = block(FutureWeaponsModBlocks.BLOCKOFSEREBRO);
+	public static final RegistryObject<Item> BLOCKOFWHITESEREBRO = block(FutureWeaponsModBlocks.BLOCKOFWHITESEREBRO);
+	public static final RegistryObject<Item> LEAD = REGISTRY.register("lead", () -> new LeadItem());
+	public static final RegistryObject<Item> LEADORE = block(FutureWeaponsModBlocks.LEADORE);
+	public static final RegistryObject<Item> LEADORE_2 = block(FutureWeaponsModBlocks.LEADORE_2);
+	public static final RegistryObject<Item> RAWLEAD = REGISTRY.register("rawlead", () -> new RawleadItem());
+	public static final RegistryObject<Item> BLOCKOFLEAD = block(FutureWeaponsModBlocks.BLOCKOFLEAD);
 
 	// Start of user code block custom items
 	// End of user code block custom items

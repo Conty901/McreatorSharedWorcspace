@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "future_weapons:block/blockofserebr",
+    "particle": "future_weapons:block/blockofserebr"
+  },
+  "render_type": "solid"
+}

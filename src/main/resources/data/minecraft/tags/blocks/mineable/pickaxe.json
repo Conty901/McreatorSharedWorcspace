@@ -1,8 +1,13 @@
 {
   "replace": false,
   "values": [
-    "future_weapons:off",
+    "future_weapons:blockoflead",
+    "future_weapons:leadore_2",
+    "future_weapons:leadore",
+    "future_weapons:blockofwhiteserebro",
+    "future_weapons:blockofserebro",
     "future_weapons:on",
+    "future_weapons:off",
     "future_weapons:serebroore"
   ]
 }

@@ -6,7 +6,7 @@
     "renderType": 2,
     "blockingRenderType": 0,
     "texture": "katana",
-    "customModelName": "katana:default",
+    "customModelName": "untitled:default",
     "blockingModelName": "Normal blocking",
     "name": "Katana",
     "specialInformation": {

@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "parent": "forge:item/default",
   "loader": "forge:obj",
-  "model": "future_weapons:models/item/katana.obj",
+  "model": "future_weapons:models/item/untitled.obj",
   "textures": {
     "m_ce793e7d-44a6-20dc-f1cc-303c4799443f": "future_weapons:block/katana",
     "particle": "future_weapons:item/katana"

@@ -28,3 +28,13 @@ minecraft {
 }
 
 
+repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
+}
+dependencies {
+    implementation fg.deobf("curse.maven:create-328085:6271934")
+}
+
+

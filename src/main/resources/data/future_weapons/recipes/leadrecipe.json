@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "future_weapons:rawlead"
+  },
+  "result": "future_weapons:lead"
+}
