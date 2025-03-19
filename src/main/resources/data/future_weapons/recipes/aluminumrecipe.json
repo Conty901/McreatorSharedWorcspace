@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 250,
+  "ingredient": {
+    "item": "future_weapons:rawaluminum"
+  },
+  "result": "future_weapons:aluminumingot"
+}

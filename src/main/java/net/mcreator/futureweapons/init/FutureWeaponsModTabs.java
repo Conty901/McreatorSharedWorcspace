@@ -50,6 +50,10 @@ public class FutureWeaponsModTabs {
 			tabData.accept(FutureWeaponsModItems.WHITESEREBRO.get());
 			tabData.accept(FutureWeaponsModItems.LEAD.get());
 			tabData.accept(FutureWeaponsModItems.RAWLEAD.get());
+			tabData.accept(FutureWeaponsModItems.RAWWOLFRAM.get());
+			tabData.accept(FutureWeaponsModItems.WOLFRAM.get());
+			tabData.accept(FutureWeaponsModItems.RAWALUMINUM.get());
+			tabData.accept(FutureWeaponsModItems.ALUMINUMINGOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(FutureWeaponsModItems.BIONICHEART.get());
 			tabData.accept(FutureWeaponsModItems.MOLOT.get());
@@ -57,6 +61,10 @@ public class FutureWeaponsModTabs {
 			tabData.accept(FutureWeaponsModBlocks.SEREBROORE.get().asItem());
 			tabData.accept(FutureWeaponsModBlocks.LEADORE.get().asItem());
 			tabData.accept(FutureWeaponsModBlocks.LEADORE_2.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.VOLFRAMORE.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.VOLFRAMORE_2.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.ALUMINUMORE.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.ALUMINUMORE_2.get().asItem());
 		}
 	}
 }

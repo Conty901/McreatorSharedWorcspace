@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "stal",
+    "texture": "wolfram",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Lead ingot",
+    "name": "Wolfram ingot",
     "rarity": "COMMON",
     "creativeTabs": [
       {

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 5,
+    "size": 6,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {
@@ -10,21 +10,16 @@
           "tag": "stone_ore_replaceables"
         },
         "state": {
-          "Name": "future_weapons:leadore_2"
+          "Name": "future_weapons:aluminumore"
         }
       },
       {
         "target": {
-          "predicate_type": "blockstate_match",
-          "block_state": {
-            "Name": "minecraft:deepslate",
-            "Properties": {
-              "axis": "y"
-            }
-          }
+          "predicate_type": "tag_match",
+          "tag": "minecraft:stone"
         },
         "state": {
-          "Name": "future_weapons:leadore_2"
+          "Name": "future_weapons:aluminumore"
         }
       }
     ]

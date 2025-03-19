@@ -10,6 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.futureweapons.block.VolframoreBlock;
+import net.mcreator.futureweapons.block.Volframore2Block;
 import net.mcreator.futureweapons.block.SerebrooreBlock;
 import net.mcreator.futureweapons.block.OnBlock;
 import net.mcreator.futureweapons.block.OffBlock;
@@ -19,6 +21,8 @@ import net.mcreator.futureweapons.block.EngeneertableBlock;
 import net.mcreator.futureweapons.block.BlockofwhiteserebroBlock;
 import net.mcreator.futureweapons.block.BlockofserebroBlock;
 import net.mcreator.futureweapons.block.BlockofleadBlock;
+import net.mcreator.futureweapons.block.AluminumoreBlock;
+import net.mcreator.futureweapons.block.Aluminumore2Block;
 import net.mcreator.futureweapons.FutureWeaponsMod;
 
 public class FutureWeaponsModBlocks {
@@ -32,6 +36,10 @@ public class FutureWeaponsModBlocks {
 	public static final RegistryObject<Block> LEADORE = REGISTRY.register("leadore", () -> new LeadoreBlock());
 	public static final RegistryObject<Block> LEADORE_2 = REGISTRY.register("leadore_2", () -> new Leadore2Block());
 	public static final RegistryObject<Block> BLOCKOFLEAD = REGISTRY.register("blockoflead", () -> new BlockofleadBlock());
+	public static final RegistryObject<Block> VOLFRAMORE = REGISTRY.register("volframore", () -> new VolframoreBlock());
+	public static final RegistryObject<Block> VOLFRAMORE_2 = REGISTRY.register("volframore_2", () -> new Volframore2Block());
+	public static final RegistryObject<Block> ALUMINUMORE = REGISTRY.register("aluminumore", () -> new AluminumoreBlock());
+	public static final RegistryObject<Block> ALUMINUMORE_2 = REGISTRY.register("aluminumore_2", () -> new Aluminumore2Block());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

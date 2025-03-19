@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "future_weapons:lead"
+    }
+  },
+  "result": {
+    "item": "future_weapons:blockoflead",
+    "count": 1
+  }
+}

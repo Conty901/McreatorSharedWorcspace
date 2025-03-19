@@ -1,7 +1,7 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 5,
+    "size": 2,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {
@@ -10,7 +10,7 @@
           "tag": "stone_ore_replaceables"
         },
         "state": {
-          "Name": "future_weapons:leadore_2"
+          "Name": "future_weapons:volframore_2"
         }
       },
       {
@@ -24,7 +24,7 @@
           }
         },
         "state": {
-          "Name": "future_weapons:leadore_2"
+          "Name": "future_weapons:volframore_2"
         }
       }
     ]

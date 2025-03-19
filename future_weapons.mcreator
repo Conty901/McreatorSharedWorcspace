@@ -4011,6 +4011,207 @@
         ]
       },
       "path": "~/metals/lead"
+    },
+    {
+      "name": "Volframore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volframore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/loot_tables/blocks/volframore.json",
+          "src/main/java/net/mcreator/futureweapons/block/VolframoreBlock.java",
+          "src/main/resources/data/future_weapons/worldgen/configured_feature/volframore.json",
+          "src/main/resources/data/future_weapons/worldgen/placed_feature/volframore.json",
+          "src/main/resources/assets/future_weapons/models/item/volframore.json",
+          "src/main/resources/assets/future_weapons/blockstates/volframore.json",
+          "src/main/resources/data/future_weapons/forge/biome_modifier/volframore_biome_modifier.json",
+          "src/main/resources/assets/future_weapons/models/block/volframore.json"
+        ]
+      },
+      "path": "~/metals/Volfram"
+    },
+    {
+      "name": "Volframore2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volframore_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/blockstates/volframore_2.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/volframore_2.json",
+          "src/main/resources/data/future_weapons/worldgen/configured_feature/volframore_2.json",
+          "src/main/resources/data/future_weapons/forge/biome_modifier/volframore_2_biome_modifier.json",
+          "src/main/resources/assets/future_weapons/models/block/volframore_2.json",
+          "src/main/resources/assets/future_weapons/models/item/volframore_2.json",
+          "src/main/java/net/mcreator/futureweapons/block/Volframore2Block.java",
+          "src/main/resources/data/future_weapons/worldgen/placed_feature/volframore_2.json"
+        ]
+      },
+      "path": "~/metals/Volfram"
+    },
+    {
+      "name": "Rawwolfram",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawwolfram",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/rawwolfram.json",
+          "src/main/java/net/mcreator/futureweapons/item/RawwolframItem.java"
+        ]
+      },
+      "path": "~/metals/Volfram"
+    },
+    {
+      "name": "Wolfram",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfram",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/wolfram.json",
+          "src/main/java/net/mcreator/futureweapons/item/WolframItem.java"
+        ]
+      },
+      "path": "~/metals/Volfram"
+    },
+    {
+      "name": "Wolframrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolframrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/wolframrecipe.json"
+        ]
+      },
+      "path": "~/metals/Volfram"
+    },
+    {
+      "name": "Aluminumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/worldgen/configured_feature/aluminumore.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/aluminumore.json",
+          "src/main/resources/assets/future_weapons/models/block/aluminumore.json",
+          "src/main/resources/data/future_weapons/worldgen/placed_feature/aluminumore.json",
+          "src/main/resources/data/future_weapons/forge/biome_modifier/aluminumore_biome_modifier.json",
+          "src/main/resources/assets/future_weapons/blockstates/aluminumore.json",
+          "src/main/java/net/mcreator/futureweapons/block/AluminumoreBlock.java",
+          "src/main/resources/assets/future_weapons/models/item/aluminumore.json"
+        ]
+      },
+      "path": "~/metals/Aluminum"
+    },
+    {
+      "name": "Aluminumore2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminumore_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/blockstates/aluminumore_2.json",
+          "src/main/resources/data/future_weapons/worldgen/configured_feature/aluminumore_2.json",
+          "src/main/java/net/mcreator/futureweapons/block/Aluminumore2Block.java",
+          "src/main/resources/data/future_weapons/worldgen/placed_feature/aluminumore_2.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/aluminumore_2.json",
+          "src/main/resources/data/future_weapons/forge/biome_modifier/aluminumore_2_biome_modifier.json",
+          "src/main/resources/assets/future_weapons/models/item/aluminumore_2.json",
+          "src/main/resources/assets/future_weapons/models/block/aluminumore_2.json"
+        ]
+      },
+      "path": "~/metals/Aluminum"
+    },
+    {
+      "name": "Rawaluminum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawaluminum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/RawaluminumItem.java",
+          "src/main/resources/assets/future_weapons/models/item/rawaluminum.json"
+        ]
+      },
+      "path": "~/metals/Aluminum"
+    },
+    {
+      "name": "Aluminumingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminumingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/aluminumingot.json",
+          "src/main/java/net/mcreator/futureweapons/item/AluminumingotItem.java"
+        ]
+      },
+      "path": "~/metals/Aluminum"
+    },
+    {
+      "name": "Aluminumrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminumrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/aluminumrecipe.json"
+        ]
+      },
+      "path": "~/metals/Aluminum"
+    },
+    {
+      "name": "Blockofleadrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofleadrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockofleadrecipe.json"
+        ]
+      },
+      "path": "~/metals/lead"
+    },
+    {
+      "name": "Blockofserebrorecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofserebrorecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockofserebrorecipe.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Blockofwhiteserebrorecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofwhiteserebrorecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockofwhiteserebrorecipe.json"
+        ]
+      },
+      "path": "~/metals/serebro"
     }
   ],
   "variable_elements": [
@@ -4066,6 +4267,10 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Aluminumore2",
+      "~CUSTOM:Aluminumore",
+      "~CUSTOM:Volframore2",
+      "~CUSTOM:Volframore",
       "~CUSTOM:Blockoflead",
       "~CUSTOM:Leadore",
       "~CUSTOM:Leadore2",
@@ -4077,6 +4282,10 @@
       "~CUSTOM:Engeneertable"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Aluminumore2",
+      "~CUSTOM:Aluminumore",
+      "~CUSTOM:Volframore2",
+      "~CUSTOM:Volframore",
       "~CUSTOM:Blockoflead",
       "~CUSTOM:Leadore2",
       "~CUSTOM:Leadore",
@@ -4096,8 +4305,10 @@
   "language_map": {
     "en_us": {
       "block.future_weapons.off": "Металическая печь",
-      "item.future_weapons.serebro": "Serebro",
-      "item.future_weapons.lead": "Lead",
+      "item.future_weapons.wolfram": "Wolfram ingot",
+      "item.future_weapons.serebro": "Serebro ingot",
+      "item.future_weapons.lead": "Lead ingot",
+      "block.future_weapons.aluminumore": "Aluminum ore",
       "item.future_weapons.schematickingal": "Schematic kingal",
       "block.future_weapons.leadore_2": "Lead deepslate ore",
       "item.future_weapons.electricsword": "Electric sword",
@@ -4112,21 +4323,27 @@
       "item.future_weapons.kingallezvie": "Kingal lezvie",
       "item.future_weapons.bionicheart_2": "Bionic heart 2",
       "item.future_weapons.rawlead": "Raw lead",
+      "item.future_weapons.rawwolfram": "Raw wolfram",
       "block.future_weapons.engeneertable": "Engeneer table",
       "item.future_weapons.acumempty": "ACUMEMPTY",
       "item.future_weapons.electswruchka": "Electro sword ruchka",
       "gui.future_weapons.engineertable.button_sozdat": "Создать",
       "block.future_weapons.serebroore": "Серебряная руда",
       "item.future_weapons.testweighteditadd": "Test weight edit add",
+      "item.future_weapons.rawaluminum": "Raw aluminum",
       "block.future_weapons.blockoflead": "Block of lead",
+      "block.future_weapons.volframore": "Wolfram ore",
       "gui.future_weapons.engineertable.button_izuchit": "Изучить",
+      "block.future_weapons.volframore_2": "Wolfram deepslate ore",
       "item.future_weapons.testweighteditremove": "Testweighteditremove",
       "curios.identifier.heart": "HEART",
       "block.future_weapons.blockofwhiteserebro": "Block of white serebro",
       "item.future_weapons.kingal": "Кинжал",
-      "item.future_weapons.whiteserebro": "Белое серебро",
+      "item.future_weapons.whiteserebro": "White serebro ingot",
       "block.future_weapons.on": "On",
       "item.future_weapons.bionicheart": "Bionic heart",
+      "item.future_weapons.aluminumingot": "Aluminum ingot",
+      "block.future_weapons.aluminumore_2": "Aluminum deepslate ore",
       "effect.future_weapons.electricity": "Electricity",
       "item.future_weapons.kingalosnova": "Kingalosnova"
     }
@@ -4152,6 +4369,14 @@
           },
           {
             "name": "lead",
+            "children": []
+          },
+          {
+            "name": "Volfram",
+            "children": []
+          },
+          {
+            "name": "Aluminum",
             "children": []
           }
         ]

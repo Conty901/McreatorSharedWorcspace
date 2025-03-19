@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "future_weapons:rawwolfram"
+  },
+  "result": "future_weapons:wolfram"
+}

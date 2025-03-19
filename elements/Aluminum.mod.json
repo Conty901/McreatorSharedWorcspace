@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "stal",
+    "texture": "aluminum_ingot",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Lead ingot",
+    "name": "Aluminum ingot",
     "rarity": "COMMON",
     "creativeTabs": [
       {

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "future_weapons:blocks/volframore_2",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "future_weapons:volframore_2"
+        }
+      ]
+    }
+  ]
+}

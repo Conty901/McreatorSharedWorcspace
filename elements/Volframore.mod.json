@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "lead_ore_an",
+    "texture": "volfram_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,12 +33,12 @@
         "subtract": false
       }
     ],
-    "name": "Lead deepslate ore",
+    "name": "Wolfram ore",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 2.6999999999999997,
-    "resistance": 17.0,
+    "hardness": 2.5,
+    "resistance": 19.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
@@ -48,7 +48,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Rawlead"
+      "value": "CUSTOM:Rawwolfram"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -128,13 +128,13 @@
         "value": "TAG:stone_ore_replaceables"
       },
       {
-        "value": "Blocks.DEEPSLATE"
+        "value": "Blocks.STONE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 7,
-    "frequencyOnChunk": 5,
-    "minGenerateHeight": -64,
-    "maxGenerateHeight": 3
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 2,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

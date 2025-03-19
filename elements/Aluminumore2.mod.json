@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "lead_ore_an",
+    "texture": "aluminum_ore_2",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,11 +33,11 @@
         "subtract": false
       }
     ],
-    "name": "Lead deepslate ore",
+    "name": "Aluminum deepslate ore",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 2.6999999999999997,
+    "hardness": 2.5999999999999996,
     "resistance": 17.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -48,7 +48,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Rawlead"
+      "value": "CUSTOM:Rawaluminum"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -132,8 +132,8 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 7,
-    "frequencyOnChunk": 5,
+    "frequencyPerChunks": 6,
+    "frequencyOnChunk": 6,
     "minGenerateHeight": -64,
     "maxGenerateHeight": 3
   }

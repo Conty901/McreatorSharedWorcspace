@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Whiteserebro"
+      },
+      {
+        "value": "CUSTOM:Whiteserebro"
+      },
+      {
+        "value": "CUSTOM:Whiteserebro"
+      },
+      {
+        "value": "CUSTOM:Whiteserebro"
+      },
+      {
+        "value": "CUSTOM:Whiteserebro"
+      },
+      {
+        "value": "CUSTOM:Whiteserebro"
+      },
+      {
+        "value": "CUSTOM:Whiteserebro"
+      },
+      {
+        "value": "CUSTOM:Whiteserebro"
+      },
+      {
+        "value": "CUSTOM:Whiteserebro"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Blockofwhiteserebro"
+    },
+    "name": "blockofwhiteserebrorecipe",
+    "namespace": "mod"
+  }
+}

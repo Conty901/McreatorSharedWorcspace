@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.futureweapons.item.WolframItem;
 import net.mcreator.futureweapons.item.WhiteserebroItem;
 import net.mcreator.futureweapons.item.TestweighteditremoveItem;
 import net.mcreator.futureweapons.item.TestweighteditaddItem;
@@ -19,7 +20,9 @@ import net.mcreator.futureweapons.item.SerebrorawItem;
 import net.mcreator.futureweapons.item.SerebroItem;
 import net.mcreator.futureweapons.item.SchematickingalItem;
 import net.mcreator.futureweapons.item.SchematicelectroswordItem;
+import net.mcreator.futureweapons.item.RawwolframItem;
 import net.mcreator.futureweapons.item.RawleadItem;
+import net.mcreator.futureweapons.item.RawaluminumItem;
 import net.mcreator.futureweapons.item.MolotItem;
 import net.mcreator.futureweapons.item.LeadItem;
 import net.mcreator.futureweapons.item.KingalosnovaItem;
@@ -31,6 +34,7 @@ import net.mcreator.futureweapons.item.ElectricswordItem;
 import net.mcreator.futureweapons.item.ElectracumItem;
 import net.mcreator.futureweapons.item.BionicheartItem;
 import net.mcreator.futureweapons.item.Bionicheart2Item;
+import net.mcreator.futureweapons.item.AluminumingotItem;
 import net.mcreator.futureweapons.item.ACUMEMPTYItem;
 import net.mcreator.futureweapons.FutureWeaponsMod;
 
@@ -65,6 +69,14 @@ public class FutureWeaponsModItems {
 	public static final RegistryObject<Item> LEADORE_2 = block(FutureWeaponsModBlocks.LEADORE_2);
 	public static final RegistryObject<Item> RAWLEAD = REGISTRY.register("rawlead", () -> new RawleadItem());
 	public static final RegistryObject<Item> BLOCKOFLEAD = block(FutureWeaponsModBlocks.BLOCKOFLEAD);
+	public static final RegistryObject<Item> VOLFRAMORE = block(FutureWeaponsModBlocks.VOLFRAMORE);
+	public static final RegistryObject<Item> VOLFRAMORE_2 = block(FutureWeaponsModBlocks.VOLFRAMORE_2);
+	public static final RegistryObject<Item> RAWWOLFRAM = REGISTRY.register("rawwolfram", () -> new RawwolframItem());
+	public static final RegistryObject<Item> WOLFRAM = REGISTRY.register("wolfram", () -> new WolframItem());
+	public static final RegistryObject<Item> ALUMINUMORE = block(FutureWeaponsModBlocks.ALUMINUMORE);
+	public static final RegistryObject<Item> ALUMINUMORE_2 = block(FutureWeaponsModBlocks.ALUMINUMORE_2);
+	public static final RegistryObject<Item> RAWALUMINUM = REGISTRY.register("rawaluminum", () -> new RawaluminumItem());
+	public static final RegistryObject<Item> ALUMINUMINGOT = REGISTRY.register("aluminumingot", () -> new AluminumingotItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

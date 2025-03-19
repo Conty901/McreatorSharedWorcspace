@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "future_weapons:serebro"
+    }
+  },
+  "result": {
+    "item": "future_weapons:blockofserebro",
+    "count": 1
+  }
+}

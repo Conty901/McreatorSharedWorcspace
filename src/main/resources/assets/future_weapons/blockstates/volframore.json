@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "future_weapons:block/volframore"
+    },
+    "facing=east": {
+      "model": "future_weapons:block/volframore",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "future_weapons:block/volframore",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "future_weapons:block/volframore",
+      "y": 270
+    }
+  }
+}
