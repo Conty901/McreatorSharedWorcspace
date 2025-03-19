@@ -4237,6 +4237,245 @@
         ]
       },
       "path": "~/metals/Aluminum"
+    },
+    {
+      "name": "Whiteserebroblockrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whiteserebroblockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/whiteserebroblockrecipe.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Serebroblockrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serebroblockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/serebroblockrecipe.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Serebroingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serebroingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/serebroingot.json",
+          "src/main/java/net/mcreator/futureweapons/item/SerebroingotItem.java"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Slveringotrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slveringotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/slveringotrecipe.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Silveringotreverserecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silveringotreverserecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/silveringotreverserecipe.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "WhitesIlvernugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whites_ilvernugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/whites_ilvernugget.json",
+          "src/main/java/net/mcreator/futureweapons/item/WhitesIlvernuggetItem.java"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Whitesilvernuggetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whitesilvernuggetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/whitesilvernuggetrecipe.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Whitesilvernuggetreverserecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whitesilvernuggetreverserecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/whitesilvernuggetreverserecipe.json"
+        ]
+      },
+      "path": "~/metals/serebro"
+    },
+    {
+      "name": "Blockofleadreverserecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofleadreverserecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockofleadreverserecipe.json"
+        ]
+      },
+      "path": "~/metals/lead"
+    },
+    {
+      "name": "Leadnugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadnugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/LeadnuggetItem.java",
+          "src/main/resources/assets/future_weapons/models/item/leadnugget.json"
+        ]
+      },
+      "path": "~/metals/lead"
+    },
+    {
+      "name": "Leadnuggetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadnuggetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/leadnuggetrecipe.json"
+        ]
+      },
+      "path": "~/metals/lead"
+    },
+    {
+      "name": "Leadnuggetreverserecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadnuggetreverserecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/leadnuggetreverserecipe.json"
+        ]
+      },
+      "path": "~/metals/lead"
+    },
+    {
+      "name": "Blockofwolframreverserecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofwolframreverserecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockofwolframreverserecipe.json"
+        ]
+      },
+      "path": "~/metals/Volfram"
+    },
+    {
+      "name": "Wolframnugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolframnugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/wolframnugget.json",
+          "src/main/java/net/mcreator/futureweapons/item/WolframnuggetItem.java"
+        ]
+      },
+      "path": "~/metals/Volfram"
+    },
+    {
+      "name": "Wolframnuggetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolframnuggetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/wolframnuggetrecipe.json"
+        ]
+      },
+      "path": "~/metals/Volfram"
+    },
+    {
+      "name": "Wolframnuggetreverserecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolframnuggetreverserecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/wolframnuggetreverserecipe.json"
+        ]
+      },
+      "path": "~/metals/Volfram"
+    },
+    {
+      "name": "Blockofaluminumreverserecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofaluminumreverserecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockofaluminumreverserecipe.json"
+        ]
+      },
+      "path": "~/metals/Aluminum"
+    },
+    {
+      "name": "Aluminumnugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminumnugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/aluminumnugget.json",
+          "src/main/java/net/mcreator/futureweapons/item/AluminumnuggetItem.java"
+        ]
+      },
+      "path": "~/metals/Aluminum"
     }
   ],
   "variable_elements": [
@@ -4335,48 +4574,53 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.future_weapons.off": "Металическая печь",
       "item.future_weapons.wolfram": "Wolfram ingot",
       "block.future_weapons.blockofwolfram": "Block of wolfram",
-      "item.future_weapons.serebro": "Serebro ingot",
       "item.future_weapons.lead": "Lead ingot",
-      "block.future_weapons.aluminumore": "Aluminum ore",
+      "item.future_weapons.serebroingot": "Silver ingot",
+      "item.future_weapons.aluminumnugget": "Aluminum nugget",
       "item.future_weapons.schematickingal": "Schematic kingal",
       "block.future_weapons.leadore_2": "Lead deepslate ore",
-      "item.future_weapons.electricsword": "Electric sword",
       "item.future_weapons.electracum": "Electro acumulator",
-      "block.future_weapons.blockofserebro": "Block of serebro",
-      "item.future_weapons.katana": "Katana",
       "block.future_weapons.leadore": "Lead ore",
-      "item.future_weapons.schematicelectrosword": "Schematic electro sword",
-      "item.future_weapons.molot": "Molot",
-      "item.future_weapons.serebroraw": "Необработаное серебро",
       "effect.future_weapons.blooding": "Blooding",
       "item.future_weapons.kingallezvie": "Kingal lezvie",
       "item.future_weapons.bionicheart_2": "Bionic heart 2",
-      "item.future_weapons.rawlead": "Raw lead",
       "item.future_weapons.rawwolfram": "Raw wolfram",
-      "block.future_weapons.engeneertable": "Engeneer table",
-      "item.future_weapons.acumempty": "ACUMEMPTY",
       "block.future_weapons.blockofaluminum": "Block of aluminum",
-      "item.future_weapons.electswruchka": "Electro sword ruchka",
-      "gui.future_weapons.engineertable.button_sozdat": "Создать",
-      "block.future_weapons.serebroore": "Серебряная руда",
+      "block.future_weapons.engeneertable": "Engeneer table",
+      "block.future_weapons.serebroore": "Silver ore",
       "item.future_weapons.testweighteditadd": "Test weight edit add",
-      "item.future_weapons.rawaluminum": "Raw aluminum",
       "block.future_weapons.blockoflead": "Block of lead",
-      "block.future_weapons.volframore": "Wolfram ore",
-      "gui.future_weapons.engineertable.button_izuchit": "Изучить",
       "block.future_weapons.volframore_2": "Wolfram deepslate ore",
-      "item.future_weapons.testweighteditremove": "Testweighteditremove",
       "curios.identifier.heart": "HEART",
-      "block.future_weapons.blockofwhiteserebro": "Block of white serebro",
-      "item.future_weapons.kingal": "Кинжал",
-      "item.future_weapons.whiteserebro": "White serebro ingot",
+      "item.future_weapons.whiteserebro": "White silver ingot",
       "block.future_weapons.on": "On",
       "item.future_weapons.bionicheart": "Bionic heart",
       "item.future_weapons.aluminumingot": "Aluminum ingot",
       "block.future_weapons.aluminumore_2": "Aluminum deepslate ore",
+      "block.future_weapons.off": "Металическая печь",
+      "item.future_weapons.serebro": "Silver ingot",
+      "block.future_weapons.aluminumore": "Aluminum ore",
+      "item.future_weapons.electricsword": "Electric sword",
+      "block.future_weapons.blockofserebro": "Block of silver",
+      "item.future_weapons.wolframnugget": "Wolfram nugget",
+      "item.future_weapons.katana": "Katana",
+      "item.future_weapons.schematicelectrosword": "Schematic electro sword",
+      "item.future_weapons.whites_ilvernugget": "White sIlver nugget",
+      "item.future_weapons.molot": "Molot",
+      "item.future_weapons.serebroraw": "Raw silver",
+      "item.future_weapons.rawlead": "Raw lead",
+      "item.future_weapons.acumempty": "ACUMEMPTY",
+      "item.future_weapons.leadnugget": "Lead nugget",
+      "item.future_weapons.electswruchka": "Electro sword ruchka",
+      "gui.future_weapons.engineertable.button_sozdat": "Создать",
+      "item.future_weapons.rawaluminum": "Raw aluminum",
+      "block.future_weapons.volframore": "Wolfram ore",
+      "gui.future_weapons.engineertable.button_izuchit": "Изучить",
+      "item.future_weapons.testweighteditremove": "Testweighteditremove",
+      "block.future_weapons.blockofwhiteserebro": "Block of white silver",
+      "item.future_weapons.kingal": "Кинжал",
       "effect.future_weapons.electricity": "Electricity",
       "item.future_weapons.kingalosnova": "Kingalosnova"
     }

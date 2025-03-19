@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 9,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,37 +12,37 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Blockoflead"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Blockoflead"
+      "value": "CUSTOM:Lead"
     },
-    "name": "blockofleadrecipe",
+    "name": "blockofleadreverserecipe",
     "namespace": "mod"
   }
 }

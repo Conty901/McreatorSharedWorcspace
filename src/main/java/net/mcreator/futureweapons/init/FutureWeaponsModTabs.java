@@ -56,6 +56,11 @@ public class FutureWeaponsModTabs {
 			tabData.accept(FutureWeaponsModItems.WOLFRAM.get());
 			tabData.accept(FutureWeaponsModItems.RAWALUMINUM.get());
 			tabData.accept(FutureWeaponsModItems.ALUMINUMINGOT.get());
+			tabData.accept(FutureWeaponsModItems.SEREBROINGOT.get());
+			tabData.accept(FutureWeaponsModItems.WHITES_ILVERNUGGET.get());
+			tabData.accept(FutureWeaponsModItems.LEADNUGGET.get());
+			tabData.accept(FutureWeaponsModItems.WOLFRAMNUGGET.get());
+			tabData.accept(FutureWeaponsModItems.ALUMINUMNUGGET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(FutureWeaponsModItems.BIONICHEART.get());
 			tabData.accept(FutureWeaponsModItems.MOLOT.get());

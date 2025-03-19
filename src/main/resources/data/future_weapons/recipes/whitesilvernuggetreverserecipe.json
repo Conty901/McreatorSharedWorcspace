@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "future_weapons:whites_ilvernugget"
+    },
+    {
+      "item": "future_weapons:whites_ilvernugget"
+    },
+    {
+      "item": "future_weapons:whites_ilvernugget"
+    },
+    {
+      "item": "future_weapons:whites_ilvernugget"
+    },
+    {
+      "item": "future_weapons:whites_ilvernugget"
+    },
+    {
+      "item": "future_weapons:whites_ilvernugget"
+    },
+    {
+      "item": "future_weapons:whites_ilvernugget"
+    },
+    {
+      "item": "future_weapons:whites_ilvernugget"
+    },
+    {
+      "item": "future_weapons:whites_ilvernugget"
+    }
+  ],
+  "result": {
+    "item": "future_weapons:whiteserebro",
+    "count": 1
+  }
+}

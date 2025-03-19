@@ -12,37 +12,37 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:WhitesIlvernugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:WhitesIlvernugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:WhitesIlvernugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:WhitesIlvernugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:WhitesIlvernugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:WhitesIlvernugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:WhitesIlvernugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:WhitesIlvernugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:WhitesIlvernugget"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Blockoflead"
+      "value": "CUSTOM:Whiteserebro"
     },
-    "name": "blockofleadrecipe",
+    "name": "whitesilvernuggetreverserecipe",
     "namespace": "mod"
   }
 }

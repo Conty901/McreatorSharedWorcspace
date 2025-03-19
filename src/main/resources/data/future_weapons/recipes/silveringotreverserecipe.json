@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "future_weapons:serebroingot"
+    },
+    {
+      "item": "future_weapons:serebroingot"
+    },
+    {
+      "item": "future_weapons:serebroingot"
+    },
+    {
+      "item": "future_weapons:serebroingot"
+    },
+    {
+      "item": "future_weapons:serebroingot"
+    },
+    {
+      "item": "future_weapons:serebroingot"
+    },
+    {
+      "item": "future_weapons:serebroingot"
+    },
+    {
+      "item": "future_weapons:serebroingot"
+    },
+    {
+      "item": "future_weapons:serebroingot"
+    }
+  ],
+  "result": {
+    "item": "future_weapons:serebro",
+    "count": 1
+  }
+}

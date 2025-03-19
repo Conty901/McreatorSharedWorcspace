@@ -12,37 +12,37 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Leadnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Leadnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Leadnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Leadnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Leadnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Leadnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Leadnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Leadnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Leadnugget"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Blockoflead"
+      "value": "CUSTOM:Lead"
     },
-    "name": "blockofleadrecipe",
+    "name": "leadnuggetreverserecipe",
     "namespace": "mod"
   }
 }

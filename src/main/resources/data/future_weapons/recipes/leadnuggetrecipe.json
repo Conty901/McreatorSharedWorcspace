@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "future_weapons:lead"
+    }
+  ],
+  "result": {
+    "item": "future_weapons:leadnugget",
+    "count": 9
+  }
+}

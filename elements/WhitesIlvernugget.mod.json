@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "serebro",
+    "texture": "white_silver_nugget",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Silver ingot",
+    "name": "White sIlver nugget",
     "rarity": "COMMON",
     "creativeTabs": [
       {

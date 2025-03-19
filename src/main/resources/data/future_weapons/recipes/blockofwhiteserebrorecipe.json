@@ -1,16 +1,35 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "aaa",
-    "aaa",
-    "aaa"
-  ],
-  "key": {
-    "a": {
+  "ingredients": [
+    {
+      "item": "future_weapons:whiteserebro"
+    },
+    {
+      "item": "future_weapons:whiteserebro"
+    },
+    {
+      "item": "future_weapons:whiteserebro"
+    },
+    {
+      "item": "future_weapons:whiteserebro"
+    },
+    {
+      "item": "future_weapons:whiteserebro"
+    },
+    {
+      "item": "future_weapons:whiteserebro"
+    },
+    {
+      "item": "future_weapons:whiteserebro"
+    },
+    {
+      "item": "future_weapons:whiteserebro"
+    },
+    {
       "item": "future_weapons:whiteserebro"
     }
-  },
+  ],
   "result": {
     "item": "future_weapons:blockofwhiteserebro",
     "count": 1

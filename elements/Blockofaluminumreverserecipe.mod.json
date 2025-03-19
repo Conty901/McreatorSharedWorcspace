@@ -12,37 +12,37 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Blockofaluminum"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Blockoflead"
+      "value": "CUSTOM:Aluminumingot"
     },
-    "name": "blockofleadrecipe",
+    "name": "blockofaluminumreverserecipe",
     "namespace": "mod"
   }
 }

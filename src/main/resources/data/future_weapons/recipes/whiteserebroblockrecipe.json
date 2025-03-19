@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "future_weapons:blockofwhiteserebro"
+    }
+  ],
+  "result": {
+    "item": "future_weapons:whiteserebro",
+    "count": 9
+  }
+}

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "serebro",
+    "texture": "silver_nugget",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

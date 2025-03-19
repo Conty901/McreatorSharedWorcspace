@@ -12,37 +12,37 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Serebroingot"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Serebroingot"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Serebroingot"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Serebroingot"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Serebroingot"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Serebroingot"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Serebroingot"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Serebroingot"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Serebroingot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Blockoflead"
+      "value": "CUSTOM:Serebro"
     },
-    "name": "blockofleadrecipe",
+    "name": "silveringotreverserecipe",
     "namespace": "mod"
   }
 }

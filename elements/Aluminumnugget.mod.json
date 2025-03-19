@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "serebro",
+    "texture": "aluminum_nugget",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Silver ingot",
+    "name": "Aluminum nugget",
     "rarity": "COMMON",
     "creativeTabs": [
       {

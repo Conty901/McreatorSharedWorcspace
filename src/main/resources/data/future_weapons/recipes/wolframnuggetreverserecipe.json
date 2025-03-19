@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "future_weapons:wolframnugget"
+    },
+    {
+      "item": "future_weapons:wolframnugget"
+    },
+    {
+      "item": "future_weapons:wolframnugget"
+    },
+    {
+      "item": "future_weapons:wolframnugget"
+    },
+    {
+      "item": "future_weapons:wolframnugget"
+    },
+    {
+      "item": "future_weapons:wolframnugget"
+    },
+    {
+      "item": "future_weapons:wolframnugget"
+    },
+    {
+      "item": "future_weapons:wolframnugget"
+    },
+    {
+      "item": "future_weapons:wolframnugget"
+    }
+  ],
+  "result": {
+    "item": "future_weapons:wolfram",
+    "count": 1
+  }
+}

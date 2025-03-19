@@ -12,37 +12,37 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Wolframnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Wolframnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Wolframnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Wolframnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Wolframnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Wolframnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Wolframnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Wolframnugget"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Wolframnugget"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Blockoflead"
+      "value": "CUSTOM:Wolfram"
     },
-    "name": "blockofleadrecipe",
+    "name": "wolframnuggetreverserecipe",
     "namespace": "mod"
   }
 }
