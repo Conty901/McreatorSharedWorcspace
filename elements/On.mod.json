@@ -101,7 +101,7 @@
     "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "FusGUI",
     "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -117,9 +117,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "Open1"
-    },
     "onTickUpdate": {
       "name": "Craft"
     },

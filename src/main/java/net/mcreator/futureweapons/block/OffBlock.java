@@ -1,6 +1,8 @@
 
 package net.mcreator.futureweapons.block;
 
+import net.minecraftforge.network.NetworkHooks;
+
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
@@ -13,18 +15,23 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
 import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.Direction;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.futureweapons.world.inventory.FusGUIMenu;
 import net.mcreator.futureweapons.procedures.RecipeProcedure;
-import net.mcreator.futureweapons.procedures.Open1Procedure;
 import net.mcreator.futureweapons.block.entity.OffBlockEntity;
+
+import io.netty.buffer.Unpooled;
 
 public class OffBlock extends Block implements EntityBlock {
 	public OffBlock() {
@@ -55,14 +62,19 @@ public class OffBlock extends Block implements EntityBlock {
 	@Override
 	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
 		super.use(blockstate, world, pos, entity, hand, hit);
-		int x = pos.getX();
-		int y = pos.getY();
-		int z = pos.getZ();
-		double hitX = hit.getLocation().x;
-		double hitY = hit.getLocation().y;
-		double hitZ = hit.getLocation().z;
-		Direction direction = hit.getDirection();
-		Open1Procedure.execute(world, x, y, z, entity);
+		if (entity instanceof ServerPlayer player) {
+			NetworkHooks.openScreen(player, new MenuProvider() {
+				@Override
+				public Component getDisplayName() {
+					return Component.literal("Металическая печь");
+				}
+
+				@Override
+				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+					return new FusGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
+				}
+			}, pos);
+		}
 		return InteractionResult.SUCCESS;
 	}
 

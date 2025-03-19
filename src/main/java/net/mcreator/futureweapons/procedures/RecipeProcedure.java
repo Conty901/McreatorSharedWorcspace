@@ -67,7 +67,7 @@ public class RecipeProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, BlockPos.containing(x, y, z), 0) < 64) {
+		}.getAmount(world, BlockPos.containing(x, y, z), 3) < 64) {
 			if ((new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);

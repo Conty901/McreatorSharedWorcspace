@@ -3754,41 +3754,6 @@
       "path": "~/new fusioner/Fusgui"
     },
     {
-      "name": "Open1",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "open_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/futureweapons/procedures/Open1Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/new fusioner/Fusgui"
-    },
-    {
       "name": "Ochistit",
       "type": "procedure",
       "compiles": true,
