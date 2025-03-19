@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "future_weapons:blockofaluminum",
+    "future_weapons:blockofwolfram",
     "future_weapons:aluminumore_2",
     "future_weapons:aluminumore",
     "future_weapons:volframore_2",

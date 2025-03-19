@@ -77,6 +77,8 @@ public class FutureWeaponsModItems {
 	public static final RegistryObject<Item> ALUMINUMORE_2 = block(FutureWeaponsModBlocks.ALUMINUMORE_2);
 	public static final RegistryObject<Item> RAWALUMINUM = REGISTRY.register("rawaluminum", () -> new RawaluminumItem());
 	public static final RegistryObject<Item> ALUMINUMINGOT = REGISTRY.register("aluminumingot", () -> new AluminumingotItem());
+	public static final RegistryObject<Item> BLOCKOFWOLFRAM = block(FutureWeaponsModBlocks.BLOCKOFWOLFRAM);
+	public static final RegistryObject<Item> BLOCKOFALUMINUM = block(FutureWeaponsModBlocks.BLOCKOFALUMINUM);
 
 	// Start of user code block custom items
 	// End of user code block custom items

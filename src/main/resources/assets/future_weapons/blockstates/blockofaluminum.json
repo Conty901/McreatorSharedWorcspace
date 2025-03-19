@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "future_weapons:block/blockofaluminum"
+    },
+    "facing=east": {
+      "model": "future_weapons:block/blockofaluminum",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "future_weapons:block/blockofaluminum",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "future_weapons:block/blockofaluminum",
+      "y": 270
+    }
+  }
+}

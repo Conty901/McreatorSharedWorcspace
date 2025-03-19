@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "white_silver_block",
+    "texture": "block_of_aluminum",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -33,12 +33,12 @@
         "subtract": false
       }
     ],
-    "name": "Block of white serebro",
+    "name": "Block of aluminum",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 2.5,
-    "resistance": 13.0,
+    "hardness": 2.5999999999999996,
+    "resistance": 14.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
@@ -123,11 +123,7 @@
     "fluidRestrictions": [],
     "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

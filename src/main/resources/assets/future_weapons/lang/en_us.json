@@ -1,6 +1,7 @@
 {
   "block.future_weapons.off": "Металическая печь",
   "item.future_weapons.wolfram": "Wolfram ingot",
+  "block.future_weapons.blockofwolfram": "Block of wolfram",
   "item.future_weapons.serebro": "Serebro ingot",
   "item.future_weapons.lead": "Lead ingot",
   "block.future_weapons.aluminumore": "Aluminum ore",
@@ -21,6 +22,7 @@
   "item.future_weapons.rawwolfram": "Raw wolfram",
   "block.future_weapons.engeneertable": "Engeneer table",
   "item.future_weapons.acumempty": "ACUMEMPTY",
+  "block.future_weapons.blockofaluminum": "Block of aluminum",
   "item.future_weapons.electswruchka": "Electro sword ruchka",
   "gui.future_weapons.engineertable.button_sozdat": "Создать",
   "block.future_weapons.serebroore": "Серебряная руда",

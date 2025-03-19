@@ -4177,6 +4177,66 @@
         ]
       },
       "path": "~/metals/serebro"
+    },
+    {
+      "name": "Blockofwolfram",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofwolfram",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/block/BlockofwolframBlock.java",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/blockofwolfram.json",
+          "src/main/resources/assets/future_weapons/models/item/blockofwolfram.json",
+          "src/main/resources/assets/future_weapons/blockstates/blockofwolfram.json",
+          "src/main/resources/assets/future_weapons/models/block/blockofwolfram.json"
+        ]
+      },
+      "path": "~/metals/Volfram"
+    },
+    {
+      "name": "Blockofwolframrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofwolframrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockofwolframrecipe.json"
+        ]
+      },
+      "path": "~/metals/Volfram"
+    },
+    {
+      "name": "Blockofaluminum",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofaluminum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/blockofaluminum.json",
+          "src/main/resources/assets/future_weapons/models/block/blockofaluminum.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/blockofaluminum.json",
+          "src/main/resources/assets/future_weapons/blockstates/blockofaluminum.json",
+          "src/main/java/net/mcreator/futureweapons/block/BlockofaluminumBlock.java"
+        ]
+      },
+      "path": "~/metals/Aluminum"
+    },
+    {
+      "name": "Blockofaluminumrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofaluminumrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockofaluminumrecipe.json"
+        ]
+      },
+      "path": "~/metals/Aluminum"
     }
   ],
   "variable_elements": [
@@ -4232,10 +4292,9 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Blockofaluminum",
       "~CUSTOM:Aluminumore2",
       "~CUSTOM:Aluminumore",
-      "~CUSTOM:Volframore2",
-      "~CUSTOM:Volframore",
       "~CUSTOM:Blockoflead",
       "~CUSTOM:Leadore",
       "~CUSTOM:Leadore2",
@@ -4243,10 +4302,17 @@
       "~CUSTOM:Blockofserebro",
       "~CUSTOM:Serebroore"
     ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Volframore2",
+      "~CUSTOM:Volframore",
+      "~CUSTOM:Blockofwolfram"
+    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Engeneertable"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Blockofaluminum",
+      "~CUSTOM:Blockofwolfram",
       "~CUSTOM:Aluminumore2",
       "~CUSTOM:Aluminumore",
       "~CUSTOM:Volframore2",
@@ -4271,6 +4337,7 @@
     "en_us": {
       "block.future_weapons.off": "Металическая печь",
       "item.future_weapons.wolfram": "Wolfram ingot",
+      "block.future_weapons.blockofwolfram": "Block of wolfram",
       "item.future_weapons.serebro": "Serebro ingot",
       "item.future_weapons.lead": "Lead ingot",
       "block.future_weapons.aluminumore": "Aluminum ore",
@@ -4291,6 +4358,7 @@
       "item.future_weapons.rawwolfram": "Raw wolfram",
       "block.future_weapons.engeneertable": "Engeneer table",
       "item.future_weapons.acumempty": "ACUMEMPTY",
+      "block.future_weapons.blockofaluminum": "Block of aluminum",
       "item.future_weapons.electswruchka": "Electro sword ruchka",
       "gui.future_weapons.engineertable.button_sozdat": "Создать",
       "block.future_weapons.serebroore": "Серебряная руда",

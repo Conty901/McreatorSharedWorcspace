@@ -26,6 +26,8 @@ public class FutureWeaponsModTabs {
 			tabData.accept(FutureWeaponsModBlocks.BLOCKOFSEREBRO.get().asItem());
 			tabData.accept(FutureWeaponsModBlocks.BLOCKOFWHITESEREBRO.get().asItem());
 			tabData.accept(FutureWeaponsModBlocks.BLOCKOFLEAD.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.BLOCKOFWOLFRAM.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.BLOCKOFALUMINUM.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(FutureWeaponsModItems.KINGALLEZVIE.get());
 			tabData.accept(FutureWeaponsModItems.KINGALOSNOVA.get());

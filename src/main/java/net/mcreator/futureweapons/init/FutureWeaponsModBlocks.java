@@ -18,9 +18,11 @@ import net.mcreator.futureweapons.block.OffBlock;
 import net.mcreator.futureweapons.block.LeadoreBlock;
 import net.mcreator.futureweapons.block.Leadore2Block;
 import net.mcreator.futureweapons.block.EngeneertableBlock;
+import net.mcreator.futureweapons.block.BlockofwolframBlock;
 import net.mcreator.futureweapons.block.BlockofwhiteserebroBlock;
 import net.mcreator.futureweapons.block.BlockofserebroBlock;
 import net.mcreator.futureweapons.block.BlockofleadBlock;
+import net.mcreator.futureweapons.block.BlockofaluminumBlock;
 import net.mcreator.futureweapons.block.AluminumoreBlock;
 import net.mcreator.futureweapons.block.Aluminumore2Block;
 import net.mcreator.futureweapons.FutureWeaponsMod;
@@ -40,6 +42,8 @@ public class FutureWeaponsModBlocks {
 	public static final RegistryObject<Block> VOLFRAMORE_2 = REGISTRY.register("volframore_2", () -> new Volframore2Block());
 	public static final RegistryObject<Block> ALUMINUMORE = REGISTRY.register("aluminumore", () -> new AluminumoreBlock());
 	public static final RegistryObject<Block> ALUMINUMORE_2 = REGISTRY.register("aluminumore_2", () -> new Aluminumore2Block());
+	public static final RegistryObject<Block> BLOCKOFWOLFRAM = REGISTRY.register("blockofwolfram", () -> new BlockofwolframBlock());
+	public static final RegistryObject<Block> BLOCKOFALUMINUM = REGISTRY.register("blockofaluminum", () -> new BlockofaluminumBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
