@@ -336,6 +336,163 @@
           "x": 245,
           "y": 62
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter.png",
+          "use1Xscale": false,
+          "x": 159,
+          "y": 48
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M1"
+          },
+          "x": 161,
+          "y": 109
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M2"
+          },
+          "x": 161,
+          "y": 103
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M3"
+          },
+          "x": 161,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M4"
+          },
+          "x": 161,
+          "y": 91
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M5"
+          },
+          "x": 161,
+          "y": 85
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M6"
+          },
+          "x": 161,
+          "y": 79
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M7"
+          },
+          "x": 161,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M8"
+          },
+          "x": 161,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M9"
+          },
+          "x": 161,
+          "y": 61
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M10"
+          },
+          "x": 161,
+          "y": 55
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_meter_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "M11"
+          },
+          "x": 161,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_textfuel",
+          "text": {
+            "fixedValue": "",
+            "name": "Textfuel"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 146,
+          "y": 40
+        }
       }
     ],
     "gridSettings": {

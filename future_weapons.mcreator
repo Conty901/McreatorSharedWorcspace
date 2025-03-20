@@ -4476,6 +4476,390 @@
         ]
       },
       "path": "~/metals/Aluminum"
+    },
+    {
+      "name": "Textfuel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textfuel",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/TextfuelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "M1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/M1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "M2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/M2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "M3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/M3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "M4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/M4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "M5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/M5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "M6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/M6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "M7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/M7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "M8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/M8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "M9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/M9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "M10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/M10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "M11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_11",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/M11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/new fusioner/Fusgui"
     }
   ],
   "variable_elements": [

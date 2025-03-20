@@ -9,6 +9,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.futureweapons.world.inventory.FusGUIMenu;
+import net.mcreator.futureweapons.procedures.TextfuelProcedure;
 import net.mcreator.futureweapons.procedures.O9Procedure;
 import net.mcreator.futureweapons.procedures.O8Procedure;
 import net.mcreator.futureweapons.procedures.O7Procedure;
@@ -30,6 +31,17 @@ import net.mcreator.futureweapons.procedures.O13Procedure;
 import net.mcreator.futureweapons.procedures.O12Procedure;
 import net.mcreator.futureweapons.procedures.O11Procedure;
 import net.mcreator.futureweapons.procedures.O10Procedure;
+import net.mcreator.futureweapons.procedures.M9Procedure;
+import net.mcreator.futureweapons.procedures.M8Procedure;
+import net.mcreator.futureweapons.procedures.M7Procedure;
+import net.mcreator.futureweapons.procedures.M6Procedure;
+import net.mcreator.futureweapons.procedures.M5Procedure;
+import net.mcreator.futureweapons.procedures.M4Procedure;
+import net.mcreator.futureweapons.procedures.M3Procedure;
+import net.mcreator.futureweapons.procedures.M2Procedure;
+import net.mcreator.futureweapons.procedures.M1Procedure;
+import net.mcreator.futureweapons.procedures.M11Procedure;
+import net.mcreator.futureweapons.procedures.M10Procedure;
 
 import java.util.HashMap;
 
@@ -133,6 +145,42 @@ public class FusGUIScreen extends AbstractContainerScreen<FusGUIMenu> {
 		if (O21Procedure.execute(world, x, y, z)) {
 			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fusion11.png"), this.leftPos + 119, this.topPos + 25, 0, 0, 1, 37, 1, 37);
 		}
+
+		guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter.png"), this.leftPos + 33, this.topPos + 11, 0, 0, 10, 75, 10, 75);
+
+		if (M1Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter_full.png"), this.leftPos + 35, this.topPos + 72, 0, 0, 6, 7, 6, 7);
+		}
+		if (M2Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter_full.png"), this.leftPos + 35, this.topPos + 66, 0, 0, 6, 7, 6, 7);
+		}
+		if (M3Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter_full.png"), this.leftPos + 35, this.topPos + 60, 0, 0, 6, 7, 6, 7);
+		}
+		if (M4Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter_full.png"), this.leftPos + 35, this.topPos + 54, 0, 0, 6, 7, 6, 7);
+		}
+		if (M5Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter_full.png"), this.leftPos + 35, this.topPos + 48, 0, 0, 6, 7, 6, 7);
+		}
+		if (M6Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter_full.png"), this.leftPos + 35, this.topPos + 42, 0, 0, 6, 7, 6, 7);
+		}
+		if (M7Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter_full.png"), this.leftPos + 35, this.topPos + 36, 0, 0, 6, 7, 6, 7);
+		}
+		if (M8Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter_full.png"), this.leftPos + 35, this.topPos + 30, 0, 0, 6, 7, 6, 7);
+		}
+		if (M9Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter_full.png"), this.leftPos + 35, this.topPos + 24, 0, 0, 6, 7, 6, 7);
+		}
+		if (M10Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter_full.png"), this.leftPos + 35, this.topPos + 18, 0, 0, 6, 7, 6, 7);
+		}
+		if (M11Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("future_weapons:textures/screens/fuel_meter_full.png"), this.leftPos + 35, this.topPos + 12, 0, 0, 6, 7, 6, 7);
+		}
 		RenderSystem.disableBlend();
 	}
 
@@ -147,6 +195,9 @@ public class FusGUIScreen extends AbstractContainerScreen<FusGUIMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font,
+
+				TextfuelProcedure.execute(world, x, y, z), 20, 3, -12829636, false);
 	}
 
 	@Override
