@@ -3,6 +3,7 @@ package net.mcreator.futureweapons.procedures;
 import net.minecraftforge.items.IItemHandlerModifiable;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
+import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Blocks;
@@ -18,6 +19,7 @@ import net.mcreator.futureweapons.init.FutureWeaponsModBlocks;
 
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.Map;
 
 public class CraftProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -198,6 +200,15 @@ public class CraftProcedure {
 					{
 						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockState _bs = FutureWeaponsModBlocks.OFF.get().defaultBlockState();
+						BlockState _bso = world.getBlockState(_bp);
+						for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+							Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+							if (_property != null && _bs.getValue(_property) != null)
+								try {
+									_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+								} catch (Exception e) {
+								}
+						}
 						BlockEntity _be = world.getBlockEntity(_bp);
 						CompoundTag _bnbt = null;
 						if (_be != null) {
@@ -336,6 +347,15 @@ public class CraftProcedure {
 				{
 					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockState _bs = FutureWeaponsModBlocks.OFF.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
 					BlockEntity _be = world.getBlockEntity(_bp);
 					CompoundTag _bnbt = null;
 					if (_be != null) {
@@ -358,6 +378,15 @@ public class CraftProcedure {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FutureWeaponsModBlocks.OFF.get().defaultBlockState();
+				BlockState _bso = world.getBlockState(_bp);
+				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+					if (_property != null && _bs.getValue(_property) != null)
+						try {
+							_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+						} catch (Exception e) {
+						}
+				}
 				BlockEntity _be = world.getBlockEntity(_bp);
 				CompoundTag _bnbt = null;
 				if (_be != null) {
