@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "future_weapons:block/block_of_lithium",
+    "particle": "future_weapons:block/block_of_lithium"
+  },
+  "render_type": "solid"
+}

@@ -4,8 +4,8 @@ package net.mcreator.futureweapons.item;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 
-public class AluminumItem extends Item {
-	public AluminumItem() {
+public class LeadingotItem extends Item {
+	public LeadingotItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 }

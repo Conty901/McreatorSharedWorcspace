@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1.3,
+  "cookingtime": 180,
+  "ingredient": {
+    "item": "future_weapons:rawlithium"
+  },
+  "result": "future_weapons:lithiumingot"
+}

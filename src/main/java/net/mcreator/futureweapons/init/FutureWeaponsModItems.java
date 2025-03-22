@@ -24,10 +24,15 @@ import net.mcreator.futureweapons.item.SerebroItem;
 import net.mcreator.futureweapons.item.SchematickingalItem;
 import net.mcreator.futureweapons.item.SchematicelectroswordItem;
 import net.mcreator.futureweapons.item.RawwolframItem;
+import net.mcreator.futureweapons.item.RawlithiumItem;
 import net.mcreator.futureweapons.item.RawleadItem;
 import net.mcreator.futureweapons.item.RawaluminumItem;
 import net.mcreator.futureweapons.item.MolotItem;
+import net.mcreator.futureweapons.item.LithiumnuggetItem;
+import net.mcreator.futureweapons.item.LithiumingotItem;
 import net.mcreator.futureweapons.item.LeadnuggetItem;
+import net.mcreator.futureweapons.item.LeadnuggeItem;
+import net.mcreator.futureweapons.item.LeadingotItem;
 import net.mcreator.futureweapons.item.LeadItem;
 import net.mcreator.futureweapons.item.KingalosnovaItem;
 import net.mcreator.futureweapons.item.KingallezvieItem;
@@ -40,6 +45,7 @@ import net.mcreator.futureweapons.item.BionicheartItem;
 import net.mcreator.futureweapons.item.Bionicheart2Item;
 import net.mcreator.futureweapons.item.AluminumnuggetItem;
 import net.mcreator.futureweapons.item.AluminumingotItem;
+import net.mcreator.futureweapons.item.AcidgunItem;
 import net.mcreator.futureweapons.item.ACUMEMPTYItem;
 import net.mcreator.futureweapons.FutureWeaponsMod;
 
@@ -69,7 +75,7 @@ public class FutureWeaponsModItems {
 	public static final RegistryObject<Item> KATANA = REGISTRY.register("katana", () -> new KatanaItem());
 	public static final RegistryObject<Item> BLOCKOFSEREBRO = block(FutureWeaponsModBlocks.BLOCKOFSEREBRO);
 	public static final RegistryObject<Item> BLOCKOFWHITESEREBRO = block(FutureWeaponsModBlocks.BLOCKOFWHITESEREBRO);
-	public static final RegistryObject<Item> LEAD = REGISTRY.register("lead", () -> new LeadItem());
+	public static final RegistryObject<Item> KOBALT = REGISTRY.register("kobalt", () -> new LeadItem());
 	public static final RegistryObject<Item> LEADORE = block(FutureWeaponsModBlocks.LEADORE);
 	public static final RegistryObject<Item> LEADORE_2 = block(FutureWeaponsModBlocks.LEADORE_2);
 	public static final RegistryObject<Item> RAWLEAD = REGISTRY.register("rawlead", () -> new RawleadItem());
@@ -89,6 +95,16 @@ public class FutureWeaponsModItems {
 	public static final RegistryObject<Item> LEADNUGGET = REGISTRY.register("leadnugget", () -> new LeadnuggetItem());
 	public static final RegistryObject<Item> WOLFRAMNUGGET = REGISTRY.register("wolframnugget", () -> new WolframnuggetItem());
 	public static final RegistryObject<Item> ALUMINUMNUGGET = REGISTRY.register("aluminumnugget", () -> new AluminumnuggetItem());
+	public static final RegistryObject<Item> LEADINGOT = REGISTRY.register("leadingot", () -> new LeadingotItem());
+	public static final RegistryObject<Item> LEADNUGGE = REGISTRY.register("leadnugge", () -> new LeadnuggeItem());
+	public static final RegistryObject<Item> BLOCKOFLEA = block(FutureWeaponsModBlocks.BLOCKOFLEA);
+	public static final RegistryObject<Item> LITHIUMORE = block(FutureWeaponsModBlocks.LITHIUMORE);
+	public static final RegistryObject<Item> LITHIUMORE_2 = block(FutureWeaponsModBlocks.LITHIUMORE_2);
+	public static final RegistryObject<Item> RAWLITHIUM = REGISTRY.register("rawlithium", () -> new RawlithiumItem());
+	public static final RegistryObject<Item> LITHIUMINGOT = REGISTRY.register("lithiumingot", () -> new LithiumingotItem());
+	public static final RegistryObject<Item> LITHIUMNUGGET = REGISTRY.register("lithiumnugget", () -> new LithiumnuggetItem());
+	public static final RegistryObject<Item> BLOCKOFLITHIUM = block(FutureWeaponsModBlocks.BLOCKOFLITHIUM);
+	public static final RegistryObject<Item> ACIDGUN = REGISTRY.register("acidgun", () -> new AcidgunItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

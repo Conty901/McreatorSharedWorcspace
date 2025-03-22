@@ -1,12 +1,16 @@
 {
   "replace": false,
   "values": [
+    "future_weapons:blockoflithium",
+    "future_weapons:lithiumore_2",
+    "future_weapons:lithiumore",
+    "future_weapons:blockoflea",
     "future_weapons:blockofaluminum",
     "future_weapons:aluminumore_2",
     "future_weapons:aluminumore",
     "future_weapons:blockoflead",
-    "future_weapons:leadore",
     "future_weapons:leadore_2",
+    "future_weapons:leadore",
     "future_weapons:blockofwhiteserebro",
     "future_weapons:blockofserebro",
     "future_weapons:serebroore"

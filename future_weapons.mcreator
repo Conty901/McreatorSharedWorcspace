@@ -3884,14 +3884,14 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lead",
+      "registry_name": "kobalt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/futureweapons/item/LeadItem.java",
-          "src/main/resources/assets/future_weapons/models/item/lead.json"
+          "src/main/resources/assets/future_weapons/models/item/kobalt.json",
+          "src/main/java/net/mcreator/futureweapons/item/LeadItem.java"
         ]
       },
-      "path": "~/metals/lead"
+      "path": "~/metals/Kobalt"
     },
     {
       "name": "Leadore",
@@ -3911,7 +3911,7 @@
           "src/main/resources/assets/future_weapons/models/item/leadore.json"
         ]
       },
-      "path": "~/metals/lead"
+      "path": "~/metals/Kobalt"
     },
     {
       "name": "Leadore2",
@@ -3931,7 +3931,7 @@
           "src/main/resources/assets/future_weapons/blockstates/leadore_2.json"
         ]
       },
-      "path": "~/metals/lead"
+      "path": "~/metals/Kobalt"
     },
     {
       "name": "Rawlead",
@@ -3945,7 +3945,7 @@
           "src/main/resources/assets/future_weapons/models/item/rawlead.json"
         ]
       },
-      "path": "~/metals/lead"
+      "path": "~/metals/Kobalt"
     },
     {
       "name": "Leadsmelt",
@@ -3958,7 +3958,7 @@
           "src/main/resources/data/future_weapons/recipes/leadrecipe.json"
         ]
       },
-      "path": "~/metals/lead"
+      "path": "~/metals/Kobalt"
     },
     {
       "name": "Blockoflead",
@@ -3975,7 +3975,7 @@
           "src/main/resources/data/future_weapons/loot_tables/blocks/blockoflead.json"
         ]
       },
-      "path": "~/metals/lead"
+      "path": "~/metals/Kobalt"
     },
     {
       "name": "Volframore",
@@ -4150,7 +4150,7 @@
           "src/main/resources/data/future_weapons/recipes/blockofleadrecipe.json"
         ]
       },
-      "path": "~/metals/lead"
+      "path": "~/metals/Kobalt"
     },
     {
       "name": "Blockofserebrorecipe",
@@ -4355,7 +4355,7 @@
           "src/main/resources/data/future_weapons/recipes/blockofleadreverserecipe.json"
         ]
       },
-      "path": "~/metals/lead"
+      "path": "~/metals/Kobalt"
     },
     {
       "name": "Leadnugget",
@@ -4369,7 +4369,7 @@
           "src/main/resources/assets/future_weapons/models/item/leadnugget.json"
         ]
       },
-      "path": "~/metals/lead"
+      "path": "~/metals/Kobalt"
     },
     {
       "name": "Leadnuggetrecipe",
@@ -4382,7 +4382,7 @@
           "src/main/resources/data/future_weapons/recipes/leadnuggetrecipe.json"
         ]
       },
-      "path": "~/metals/lead"
+      "path": "~/metals/Kobalt"
     },
     {
       "name": "Leadnuggetreverserecipe",
@@ -4395,7 +4395,7 @@
           "src/main/resources/data/future_weapons/recipes/leadnuggetreverserecipe.json"
         ]
       },
-      "path": "~/metals/lead"
+      "path": "~/metals/Kobalt"
     },
     {
       "name": "Blockofwolframreverserecipe",
@@ -4860,6 +4860,377 @@
         ]
       },
       "path": "~/new fusioner/Fusgui"
+    },
+    {
+      "name": "Leadingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/leadingot.json",
+          "src/main/java/net/mcreator/futureweapons/item/LeadingotItem.java"
+        ]
+      },
+      "path": "~/metals/Lead"
+    },
+    {
+      "name": "Leadnugge",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadnugge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/leadnugge.json",
+          "src/main/java/net/mcreator/futureweapons/item/LeadnuggeItem.java"
+        ]
+      },
+      "path": "~/metals/Lead"
+    },
+    {
+      "name": "Blockoflea",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockoflea",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/loot_tables/blocks/blockoflea.json",
+          "src/main/resources/assets/future_weapons/models/block/blockoflea.json",
+          "src/main/resources/assets/future_weapons/blockstates/blockoflea.json",
+          "src/main/resources/assets/future_weapons/models/item/blockoflea.json",
+          "src/main/java/net/mcreator/futureweapons/block/BlockofleaBlock.java"
+        ]
+      },
+      "path": "~/metals/Lead"
+    },
+    {
+      "name": "Blockofleadrecip",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofleadrecip",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockofleadrecip.json"
+        ]
+      },
+      "path": "~/metals/Lead"
+    },
+    {
+      "name": "Blockofleadreverserecip",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofleadreverserecip",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockofleadreverserecip.json"
+        ]
+      },
+      "path": "~/metals/Lead"
+    },
+    {
+      "name": "Leadnuggetrecip",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadnuggetrecip",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/leadnuggetrecip.json"
+        ]
+      },
+      "path": "~/metals/Lead"
+    },
+    {
+      "name": "Leadnuggetreverserecip",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadnuggetreverserecip",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/leadnuggetreverserecip.json"
+        ]
+      },
+      "path": "~/metals/Lead"
+    },
+    {
+      "name": "Lithiumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithiumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/forge/biome_modifier/lithiumore_biome_modifier.json",
+          "src/main/resources/data/future_weapons/worldgen/configured_feature/lithiumore.json",
+          "src/main/resources/assets/future_weapons/models/item/lithiumore.json",
+          "src/main/resources/assets/future_weapons/blockstates/lithiumore.json",
+          "src/main/resources/data/future_weapons/worldgen/placed_feature/lithiumore.json",
+          "src/main/java/net/mcreator/futureweapons/block/LithiumoreBlock.java",
+          "src/main/resources/assets/future_weapons/models/block/lithiumore.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/lithiumore.json"
+        ]
+      },
+      "path": "~/metals/lithium"
+    },
+    {
+      "name": "Lithiumore2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithiumore_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/block/lithiumore_2.json",
+          "src/main/resources/assets/future_weapons/models/item/lithiumore_2.json",
+          "src/main/resources/data/future_weapons/forge/biome_modifier/lithiumore_2_biome_modifier.json",
+          "src/main/resources/assets/future_weapons/blockstates/lithiumore_2.json",
+          "src/main/resources/data/future_weapons/worldgen/placed_feature/lithiumore_2.json",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/lithiumore_2.json",
+          "src/main/resources/data/future_weapons/worldgen/configured_feature/lithiumore_2.json",
+          "src/main/java/net/mcreator/futureweapons/block/Lithiumore2Block.java"
+        ]
+      },
+      "path": "~/metals/lithium"
+    },
+    {
+      "name": "Rawlithium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawlithium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/RawlithiumItem.java",
+          "src/main/resources/assets/future_weapons/models/item/rawlithium.json"
+        ]
+      },
+      "path": "~/metals/lithium"
+    },
+    {
+      "name": "Lithiumingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithiumingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/lithiumingot.json",
+          "src/main/java/net/mcreator/futureweapons/item/LithiumingotItem.java"
+        ]
+      },
+      "path": "~/metals/lithium"
+    },
+    {
+      "name": "Lithium",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/lithiumrecipe.json"
+        ]
+      },
+      "path": "~/metals/lithium"
+    },
+    {
+      "name": "Lithiumnugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithiumnugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/lithiumnugget.json",
+          "src/main/java/net/mcreator/futureweapons/item/LithiumnuggetItem.java"
+        ]
+      },
+      "path": "~/metals/lithium"
+    },
+    {
+      "name": "Lithiumnuggetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithiumnuggetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/lithiumnuggetrecipe.json"
+        ]
+      },
+      "path": "~/metals/lithium"
+    },
+    {
+      "name": "Lithiumnuggetreverserecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithiumnuggetreverserecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/lithiumnuggetreverserecipe.json"
+        ]
+      },
+      "path": "~/metals/lithium"
+    },
+    {
+      "name": "Blockoflithium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockoflithium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/block/BlockoflithiumBlock.java",
+          "src/main/resources/data/future_weapons/loot_tables/blocks/blockoflithium.json",
+          "src/main/resources/assets/future_weapons/blockstates/blockoflithium.json",
+          "src/main/resources/assets/future_weapons/models/block/blockoflithium.json",
+          "src/main/resources/assets/future_weapons/models/item/blockoflithium.json"
+        ]
+      },
+      "path": "~/metals/lithium"
+    },
+    {
+      "name": "Blockoflithiumrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockoflithiumrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockoflithiumrecipe.json"
+        ]
+      },
+      "path": "~/metals/lithium"
+    },
+    {
+      "name": "Blockoflithiumreverserecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockoflithiumreverserecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/future_weapons/recipes/blockoflithiumreverserecipe.json"
+        ]
+      },
+      "path": "~/metals/lithium"
+    },
+    {
+      "name": "Acidgun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acidgun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/future_weapons/models/item/acidgun.json",
+          "src/main/java/net/mcreator/futureweapons/item/AcidgunItem.java"
+        ]
+      },
+      "path": "~/weapons/axid_gun"
+    },
+    {
+      "name": "Acidgunprojectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acidgunprojectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/client/renderer/AcidgunprojectileRenderer.java",
+          "src/main/java/net/mcreator/futureweapons/entity/AcidgunprojectileEntity.java"
+        ]
+      },
+      "path": "~/weapons/axid_gun"
+    },
+    {
+      "name": "AcidgunprojectileWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acidgunprojectile_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/AcidgunprojectileWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/weapons/axid_gun"
+    },
+    {
+      "name": "Acid",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/potion/AcidMobEffect.java"
+        ]
+      },
+      "path": "~/weapons/axid_gun"
+    },
+    {
+      "name": "AcidgunprojectileProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acidgunprojectile_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/AcidgunprojectileProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/weapons/axid_gun"
+    },
+    {
+      "name": "AcidOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/AcidOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/weapons/axid_gun"
     }
   ],
   "variable_elements": [
@@ -4915,25 +5286,33 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Blockoflithium",
+      "~CUSTOM:Lithiumore2",
+      "~CUSTOM:Lithiumore",
+      "~CUSTOM:Blockoflea",
       "~CUSTOM:Blockofaluminum",
       "~CUSTOM:Aluminumore2",
       "~CUSTOM:Aluminumore",
       "~CUSTOM:Blockoflead",
-      "~CUSTOM:Leadore",
       "~CUSTOM:Leadore2",
+      "~CUSTOM:Leadore",
       "~CUSTOM:Blockofwhiteserebro",
       "~CUSTOM:Blockofserebro",
       "~CUSTOM:Serebroore"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Blockofwolfram",
       "~CUSTOM:Volframore2",
-      "~CUSTOM:Volframore",
-      "~CUSTOM:Blockofwolfram"
+      "~CUSTOM:Volframore"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Engeneertable"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Blockoflithium",
+      "~CUSTOM:Lithiumore2",
+      "~CUSTOM:Lithiumore",
+      "~CUSTOM:Blockoflea",
       "~CUSTOM:Blockofaluminum",
       "~CUSTOM:Blockofwolfram",
       "~CUSTOM:Aluminumore2",
@@ -4960,13 +5339,14 @@
     "en_us": {
       "item.future_weapons.wolfram": "Wolfram ingot",
       "block.future_weapons.blockofwolfram": "Block of wolfram",
-      "item.future_weapons.lead": "Lead ingot",
       "item.future_weapons.serebroingot": "Silver ingot",
       "item.future_weapons.aluminumnugget": "Aluminum nugget",
       "item.future_weapons.schematickingal": "Schematic kingal",
-      "block.future_weapons.leadore_2": "Lead deepslate ore",
+      "block.future_weapons.leadore_2": "Kobalt deepslate ore",
       "item.future_weapons.electracum": "Electro acumulator",
-      "block.future_weapons.leadore": "Lead ore",
+      "block.future_weapons.leadore": "Kobalt ore",
+      "block.future_weapons.lithiumore_2": "Deepslate lithium ore",
+      "block.future_weapons.blockoflithium": "Block of lithium",
       "effect.future_weapons.blooding": "Blooding",
       "item.future_weapons.kingallezvie": "Kingal lezvie",
       "item.future_weapons.bionicheart_2": "Bionic heart 2",
@@ -4975,28 +5355,37 @@
       "block.future_weapons.engeneertable": "Engeneer table",
       "block.future_weapons.serebroore": "Silver ore",
       "item.future_weapons.testweighteditadd": "Test weight edit add",
-      "block.future_weapons.blockoflead": "Block of lead",
+      "item.future_weapons.leadnugge": "Lead nuggeе",
+      "item.future_weapons.leadingot": "Lead ingot",
+      "block.future_weapons.blockoflead": "Block of kobalt",
+      "block.future_weapons.blockoflea": "Block of leaв",
+      "item.future_weapons.lithiumnugget": "Lithium nugget",
       "block.future_weapons.volframore_2": "Wolfram deepslate ore",
       "curios.identifier.heart": "HEART",
       "item.future_weapons.whiteserebro": "White silver ingot",
       "block.future_weapons.on": "On",
       "item.future_weapons.bionicheart": "Bionic heart",
       "item.future_weapons.aluminumingot": "Aluminum ingot",
+      "block.future_weapons.lithiumore": "Lithium ore",
       "block.future_weapons.aluminumore_2": "Aluminum deepslate ore",
+      "item.future_weapons.kobalt": "Kobalt ingot",
       "block.future_weapons.off": "Металическая печь",
+      "item.future_weapons.lithiumingot": "Lithium ingot",
       "item.future_weapons.serebro": "Silver ingot",
       "block.future_weapons.aluminumore": "Aluminum ore",
       "item.future_weapons.electricsword": "Electric sword",
       "block.future_weapons.blockofserebro": "Block of silver",
       "item.future_weapons.wolframnugget": "Wolfram nugget",
+      "item.future_weapons.acidgun": "Acid gun",
       "item.future_weapons.katana": "Katana",
+      "item.future_weapons.rawlithium": "Raw lithium",
       "item.future_weapons.schematicelectrosword": "Schematic electro sword",
       "item.future_weapons.whites_ilvernugget": "White sIlver nugget",
       "item.future_weapons.molot": "Molot",
       "item.future_weapons.serebroraw": "Raw silver",
-      "item.future_weapons.rawlead": "Raw lead",
+      "item.future_weapons.rawlead": "Raw kobalt",
       "item.future_weapons.acumempty": "ACUMEMPTY",
-      "item.future_weapons.leadnugget": "Lead nugget",
+      "item.future_weapons.leadnugget": "Kobalt nugget",
       "item.future_weapons.electswruchka": "Electro sword ruchka",
       "gui.future_weapons.engineertable.button_sozdat": "Создать",
       "item.future_weapons.rawaluminum": "Raw aluminum",
@@ -5005,6 +5394,7 @@
       "item.future_weapons.testweighteditremove": "Testweighteditremove",
       "block.future_weapons.blockofwhiteserebro": "Block of white silver",
       "item.future_weapons.kingal": "Кинжал",
+      "effect.future_weapons.acid": "Acid poison",
       "effect.future_weapons.electricity": "Electricity",
       "item.future_weapons.kingalosnova": "Kingalosnova"
     }
@@ -5029,7 +5419,7 @@
             "children": []
           },
           {
-            "name": "lead",
+            "name": "Kobalt",
             "children": []
           },
           {
@@ -5038,6 +5428,18 @@
           },
           {
             "name": "Aluminum",
+            "children": []
+          },
+          {
+            "name": "Lead",
+            "children": []
+          },
+          {
+            "name": "lithium",
+            "children": []
+          },
+          {
+            "name": "Termionos",
             "children": []
           }
         ]
@@ -5065,6 +5467,10 @@
           },
           {
             "name": "katana",
+            "children": []
+          },
+          {
+            "name": "axid_gun",
             "children": []
           }
         ]

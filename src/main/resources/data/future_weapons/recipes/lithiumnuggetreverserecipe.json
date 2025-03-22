@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "future_weapons:lithiumnugget"
+    },
+    {
+      "item": "future_weapons:lithiumnugget"
+    },
+    {
+      "item": "future_weapons:lithiumnugget"
+    },
+    {
+      "item": "future_weapons:lithiumnugget"
+    },
+    {
+      "item": "future_weapons:lithiumnugget"
+    },
+    {
+      "item": "future_weapons:lithiumnugget"
+    },
+    {
+      "item": "future_weapons:lithiumnugget"
+    },
+    {
+      "item": "future_weapons:lithiumnugget"
+    },
+    {
+      "item": "future_weapons:lithiumnugget"
+    }
+  ],
+  "result": {
+    "item": "future_weapons:lithiumingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "face=floor,facing=north": {
+      "model": "future_weapons:block/blockoflithium"
+    },
+    "face=floor,facing=east": {
+      "model": "future_weapons:block/blockoflithium",
+      "y": 90
+    },
+    "face=floor,facing=south": {
+      "model": "future_weapons:block/blockoflithium",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "future_weapons:block/blockoflithium",
+      "y": 270
+    },
+    "face=wall,facing=north": {
+      "model": "future_weapons:block/blockoflithium",
+      "x": 90
+    },
+    "face=wall,facing=east": {
+      "model": "future_weapons:block/blockoflithium",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=south": {
+      "model": "future_weapons:block/blockoflithium",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "future_weapons:block/blockoflithium",
+      "x": 90,
+      "y": 270
+    },
+    "face=ceiling,facing=north": {
+      "model": "future_weapons:block/blockoflithium",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=east": {
+      "model": "future_weapons:block/blockoflithium",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=south": {
+      "model": "future_weapons:block/blockoflithium",
+      "x": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "future_weapons:block/blockoflithium",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

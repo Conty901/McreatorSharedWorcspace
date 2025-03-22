@@ -28,6 +28,8 @@ public class FutureWeaponsModTabs {
 			tabData.accept(FutureWeaponsModBlocks.BLOCKOFLEAD.get().asItem());
 			tabData.accept(FutureWeaponsModBlocks.BLOCKOFWOLFRAM.get().asItem());
 			tabData.accept(FutureWeaponsModBlocks.BLOCKOFALUMINUM.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.BLOCKOFLEA.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.BLOCKOFLITHIUM.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(FutureWeaponsModItems.KINGALLEZVIE.get());
 			tabData.accept(FutureWeaponsModItems.KINGALOSNOVA.get());
@@ -40,6 +42,7 @@ public class FutureWeaponsModTabs {
 			tabData.accept(FutureWeaponsModItems.KINGAL.get());
 			tabData.accept(FutureWeaponsModItems.ELECTRICSWORD.get());
 			tabData.accept(FutureWeaponsModItems.KATANA.get());
+			tabData.accept(FutureWeaponsModItems.ACIDGUN.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(FutureWeaponsModItems.SCHEMATICKINGAL.get());
 			tabData.accept(FutureWeaponsModItems.BIONICHEART_2.get());
@@ -50,7 +53,7 @@ public class FutureWeaponsModTabs {
 			tabData.accept(FutureWeaponsModItems.SEREBRORAW.get());
 			tabData.accept(FutureWeaponsModItems.SEREBRO.get());
 			tabData.accept(FutureWeaponsModItems.WHITESEREBRO.get());
-			tabData.accept(FutureWeaponsModItems.LEAD.get());
+			tabData.accept(FutureWeaponsModItems.KOBALT.get());
 			tabData.accept(FutureWeaponsModItems.RAWLEAD.get());
 			tabData.accept(FutureWeaponsModItems.RAWWOLFRAM.get());
 			tabData.accept(FutureWeaponsModItems.WOLFRAM.get());
@@ -61,6 +64,11 @@ public class FutureWeaponsModTabs {
 			tabData.accept(FutureWeaponsModItems.LEADNUGGET.get());
 			tabData.accept(FutureWeaponsModItems.WOLFRAMNUGGET.get());
 			tabData.accept(FutureWeaponsModItems.ALUMINUMNUGGET.get());
+			tabData.accept(FutureWeaponsModItems.LEADINGOT.get());
+			tabData.accept(FutureWeaponsModItems.LEADNUGGE.get());
+			tabData.accept(FutureWeaponsModItems.RAWLITHIUM.get());
+			tabData.accept(FutureWeaponsModItems.LITHIUMINGOT.get());
+			tabData.accept(FutureWeaponsModItems.LITHIUMNUGGET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(FutureWeaponsModItems.BIONICHEART.get());
 			tabData.accept(FutureWeaponsModItems.MOLOT.get());
@@ -72,6 +80,8 @@ public class FutureWeaponsModTabs {
 			tabData.accept(FutureWeaponsModBlocks.VOLFRAMORE_2.get().asItem());
 			tabData.accept(FutureWeaponsModBlocks.ALUMINUMORE.get().asItem());
 			tabData.accept(FutureWeaponsModBlocks.ALUMINUMORE_2.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.LITHIUMORE.get().asItem());
+			tabData.accept(FutureWeaponsModBlocks.LITHIUMORE_2.get().asItem());
 		}
 	}
 }

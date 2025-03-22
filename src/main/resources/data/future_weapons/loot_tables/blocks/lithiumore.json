@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "future_weapons:blocks/lithiumore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "future_weapons:rawlithium"
+        }
+      ]
+    }
+  ]
+}

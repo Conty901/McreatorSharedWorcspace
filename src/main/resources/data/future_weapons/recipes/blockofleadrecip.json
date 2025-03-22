@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "future_weapons:leadingot"
+    },
+    {
+      "item": "future_weapons:leadingot"
+    },
+    {
+      "item": "future_weapons:leadingot"
+    },
+    {
+      "item": "future_weapons:leadingot"
+    },
+    {
+      "item": "future_weapons:leadingot"
+    },
+    {
+      "item": "future_weapons:leadingot"
+    },
+    {
+      "item": "future_weapons:leadingot"
+    },
+    {
+      "item": "future_weapons:leadingot"
+    },
+    {
+      "item": "future_weapons:leadingot"
+    }
+  ],
+  "result": {
+    "item": "future_weapons:blockoflea",
+    "count": 1
+  }
+}

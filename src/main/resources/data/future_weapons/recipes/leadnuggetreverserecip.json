@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "future_weapons:leadnugge"
+    },
+    {
+      "item": "future_weapons:leadnugge"
+    },
+    {
+      "item": "future_weapons:leadnugge"
+    },
+    {
+      "item": "future_weapons:leadnugge"
+    },
+    {
+      "item": "future_weapons:leadnugge"
+    },
+    {
+      "item": "future_weapons:leadnugge"
+    },
+    {
+      "item": "future_weapons:leadnugge"
+    },
+    {
+      "item": "future_weapons:leadnugge"
+    },
+    {
+      "item": "future_weapons:leadnugge"
+    }
+  ],
+  "result": {
+    "item": "future_weapons:leadingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "future_weapons:lithiumingot"
+    }
+  ],
+  "result": {
+    "item": "future_weapons:lithiumnugget",
+    "count": 9
+  }
+}

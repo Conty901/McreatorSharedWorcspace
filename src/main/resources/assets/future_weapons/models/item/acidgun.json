@@ -1,0 +1,7 @@
+{
+  "parent": "future_weapons:custom/acid_pushka",
+  "textures": {
+    "2": "future_weapons:block/acid_pushka",
+    "particle": "future_weapons:item/acid_pushka"
+  }
+}

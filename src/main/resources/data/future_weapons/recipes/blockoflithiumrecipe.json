@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "future_weapons:lithiumingot"
+    },
+    {
+      "item": "future_weapons:lithiumingot"
+    },
+    {
+      "item": "future_weapons:lithiumingot"
+    },
+    {
+      "item": "future_weapons:lithiumingot"
+    },
+    {
+      "item": "future_weapons:lithiumingot"
+    },
+    {
+      "item": "future_weapons:lithiumingot"
+    },
+    {
+      "item": "future_weapons:lithiumingot"
+    },
+    {
+      "item": "future_weapons:lithiumingot"
+    },
+    {
+      "item": "future_weapons:lithiumingot"
+    }
+  ],
+  "result": {
+    "item": "future_weapons:blockoflithium",
+    "count": 1
+  }
+}

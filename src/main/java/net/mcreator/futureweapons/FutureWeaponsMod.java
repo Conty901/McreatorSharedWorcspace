@@ -22,6 +22,7 @@ import net.mcreator.futureweapons.init.FutureWeaponsModParticleTypes;
 import net.mcreator.futureweapons.init.FutureWeaponsModMobEffects;
 import net.mcreator.futureweapons.init.FutureWeaponsModMenus;
 import net.mcreator.futureweapons.init.FutureWeaponsModItems;
+import net.mcreator.futureweapons.init.FutureWeaponsModEntities;
 import net.mcreator.futureweapons.init.FutureWeaponsModBlocks;
 import net.mcreator.futureweapons.init.FutureWeaponsModBlockEntities;
 
@@ -48,6 +49,7 @@ public class FutureWeaponsMod {
 		FutureWeaponsModBlocks.REGISTRY.register(bus);
 		FutureWeaponsModBlockEntities.REGISTRY.register(bus);
 		FutureWeaponsModItems.REGISTRY.register(bus);
+		FutureWeaponsModEntities.REGISTRY.register(bus);
 
 		FutureWeaponsModTabs.REGISTRY.register(bus);
 

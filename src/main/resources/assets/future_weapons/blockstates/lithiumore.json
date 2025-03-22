@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "future_weapons:block/lithiumore"
+    },
+    "facing=east": {
+      "model": "future_weapons:block/lithiumore",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "future_weapons:block/lithiumore",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "future_weapons:block/lithiumore",
+      "y": 270
+    }
+  }
+}

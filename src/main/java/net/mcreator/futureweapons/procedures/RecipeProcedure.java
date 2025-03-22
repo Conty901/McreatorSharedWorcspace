@@ -13,7 +13,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.futureweapons.init.FutureWeaponsModItems;
 import net.mcreator.futureweapons.init.FutureWeaponsModBlocks;
 
 import java.util.concurrent.atomic.AtomicReference;
@@ -78,7 +77,7 @@ public class RecipeProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, BlockPos.containing(x, y, z), 2)).getItem() == FutureWeaponsModItems.SEREBRO.get() && (new Object() {
+			}.getItemStack(world, BlockPos.containing(x, y, z), 2)).getItem() == Items.IRON_INGOT && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -86,23 +85,7 @@ public class RecipeProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == Items.IRON_INGOT || (new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-					BlockEntity _ent = world.getBlockEntity(pos);
-					if (_ent != null)
-						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-					return _retval.get();
-				}
-			}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == FutureWeaponsModItems.SEREBRO.get() && (new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-					BlockEntity _ent = world.getBlockEntity(pos);
-					if (_ent != null)
-						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-					return _retval.get();
-				}
-			}.getItemStack(world, BlockPos.containing(x, y, z), 2)).getItem() == Items.IRON_INGOT || false) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == Items.IRON_INGOT || false) {
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);

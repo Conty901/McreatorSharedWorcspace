@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "future_weapons:block/blockoflea"
+    },
+    "facing=east": {
+      "model": "future_weapons:block/blockoflea",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "future_weapons:block/blockoflea",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "future_weapons:block/blockoflea",
+      "y": 270
+    }
+  }
+}
