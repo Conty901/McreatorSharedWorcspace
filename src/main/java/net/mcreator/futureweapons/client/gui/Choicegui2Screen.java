@@ -10,6 +10,10 @@ import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.futureweapons.world.inventory.Choicegui2Menu;
+import net.mcreator.futureweapons.procedures.Label2Procedure;
+import net.mcreator.futureweapons.procedures.Label1Procedure;
+import net.mcreator.futureweapons.network.Choicegui2ButtonMessage;
+import net.mcreator.futureweapons.FutureWeaponsMod;
 
 import java.util.HashMap;
 
@@ -63,16 +67,30 @@ public class Choicegui2Screen extends AbstractContainerScreen<Choicegui2Menu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font,
+
+				Label1Procedure.execute(entity), 54, 60, -13421773, false);
+		guiGraphics.drawString(this.font,
+
+				Label2Procedure.execute(entity), 54, 108, -13421773, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
 		imagebutton_simple_tile = new ImageButton(this.leftPos + 48, this.topPos + 51, 132, 40, 0, 0, 40, new ResourceLocation("future_weapons:textures/screens/atlas/imagebutton_simple_tile.png"), 132, 80, e -> {
+			if (true) {
+				FutureWeaponsMod.PACKET_HANDLER.sendToServer(new Choicegui2ButtonMessage(0, x, y, z));
+				Choicegui2ButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_simple_tile", imagebutton_simple_tile);
 		this.addRenderableWidget(imagebutton_simple_tile);
 		imagebutton_simple_tile1 = new ImageButton(this.leftPos + 48, this.topPos + 100, 132, 40, 0, 0, 40, new ResourceLocation("future_weapons:textures/screens/atlas/imagebutton_simple_tile1.png"), 132, 80, e -> {
+			if (true) {
+				FutureWeaponsMod.PACKET_HANDLER.sendToServer(new Choicegui2ButtonMessage(1, x, y, z));
+				Choicegui2ButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_simple_tile1", imagebutton_simple_tile1);
 		this.addRenderableWidget(imagebutton_simple_tile1);

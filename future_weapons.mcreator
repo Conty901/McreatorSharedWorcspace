@@ -5248,6 +5248,7 @@
       "registry_name": "choicegui_2",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/futureweapons/network/Choicegui2ButtonMessage.java",
           "src/main/java/net/mcreator/futureweapons/world/inventory/Choicegui2Menu.java",
           "src/main/java/net/mcreator/futureweapons/client/gui/Choicegui2Screen.java"
         ]
@@ -5302,8 +5303,85 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      },
+      "path": "~/Choice/choice2"
+    },
+    {
+      "name": "Label1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "label_1",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/Label1Procedure.java"
         ],
-        "return_type": "string"
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Choice/choice2"
+    },
+    {
+      "name": "Label2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "label_2",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/Label2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Choice/choice2"
+    },
+    {
+      "name": "Choice21",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choice_21",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/Choice21Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Choice/choice2"
+    },
+    {
+      "name": "Choice22",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choice_22",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/Choice22Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/Choice/choice2"
     }
@@ -5356,6 +5434,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0.0"
+    },
+    {
+      "name": "last_choice",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],

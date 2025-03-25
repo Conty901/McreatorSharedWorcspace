@@ -25,6 +25,9 @@
           "name": "imagebutton_simple_tile",
           "image": "simple_tile.png",
           "hoveredImage": "simple_red_tile.png",
+          "onClick": {
+            "name": "Choice21"
+          },
           "x": 6,
           "y": 6
         }
@@ -35,11 +38,49 @@
           "name": "imagebutton_simple_tile1",
           "image": "simple_tile.png",
           "hoveredImage": "simple_red_tile.png",
+          "onClick": {
+            "name": "Choice22"
+          },
           "x": 6,
           "y": 55
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_label_1",
+          "text": {
+            "fixedValue": "",
+            "name": "Label1"
+          },
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "x": 12,
+          "y": 15
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_label_2",
+          "text": {
+            "fixedValue": "",
+            "name": "Label2"
+          },
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "x": 12,
+          "y": 63
+        }
       }
     ],
+    "onOpen": {
+      "name": "Label1"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

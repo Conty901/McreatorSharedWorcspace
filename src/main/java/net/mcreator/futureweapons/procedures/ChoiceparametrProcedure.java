@@ -22,9 +22,11 @@ import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.arguments.StringArgumentType;
 
 public class ChoiceparametrProcedure {
-	public static String execute(LevelAccessor world, double x, double y, double z, CommandContext<CommandSourceStack> arguments, Entity entity) {
+	public static void execute(LevelAccessor world, double x, double y, double z, CommandContext<CommandSourceStack> arguments, Entity entity) {
 		if (entity == null)
-			return "";
+			return;
+		entity.getPersistentData().putString("choice21", (StringArgumentType.getString(arguments, "choice21")));
+		entity.getPersistentData().putString("choice22", (StringArgumentType.getString(arguments, "choice22")));
 		if (entity instanceof ServerPlayer _ent) {
 			BlockPos _bpos = BlockPos.containing(x, y, z);
 			NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
@@ -39,6 +41,5 @@ public class ChoiceparametrProcedure {
 				}
 			}, _bpos);
 		}
-		return StringArgumentType.getString(arguments, "choice21");
 	}
 }
