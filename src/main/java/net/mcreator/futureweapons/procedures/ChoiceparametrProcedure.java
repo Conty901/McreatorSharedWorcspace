@@ -19,14 +19,12 @@ import net.mcreator.futureweapons.world.inventory.Choicegui2Menu;
 import io.netty.buffer.Unpooled;
 
 import com.mojang.brigadier.context.CommandContext;
-import com.mojang.brigadier.arguments.StringArgumentType;
 
 public class ChoiceparametrProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, CommandContext<CommandSourceStack> arguments, Entity entity) {
 		if (entity == null)
 			return;
-		entity.getPersistentData().putString("choice21", (StringArgumentType.getString(arguments, "choice21")));
-		entity.getPersistentData().putString("choice22", (StringArgumentType.getString(arguments, "choice22")));
+		Choice21Procedure.execute(world, arguments, entity);
 		if (entity instanceof ServerPlayer _ent) {
 			BlockPos _bpos = BlockPos.containing(x, y, z);
 			NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {

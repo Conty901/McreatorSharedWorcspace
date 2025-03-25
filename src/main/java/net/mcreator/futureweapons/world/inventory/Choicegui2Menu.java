@@ -16,7 +16,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.futureweapons.procedures.Label1Procedure;
 import net.mcreator.futureweapons.init.FutureWeaponsModMenus;
 
 import java.util.function.Supplier;
@@ -49,7 +48,6 @@ public class Choicegui2Menu extends AbstractContainerMenu implements Supplier<Ma
 			this.z = pos.getZ();
 			access = ContainerLevelAccess.create(world, pos);
 		}
-		Label1Procedure.execute(entity);
 	}
 
 	@Override

@@ -12,7 +12,6 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.futureweapons.world.inventory.Choicegui2Menu;
-import net.mcreator.futureweapons.procedures.Choice22Procedure;
 import net.mcreator.futureweapons.procedures.Choice21Procedure;
 import net.mcreator.futureweapons.FutureWeaponsMod;
 
@@ -65,11 +64,11 @@ public class Choicegui2ButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			Choice21Procedure.execute(entity);
+			Choice21Procedure.execute(world, arguments, entity);
 		}
 		if (buttonID == 1) {
 
-			Choice22Procedure.execute(entity);
+			Choice22Procedure.execute();
 		}
 	}
 

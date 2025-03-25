@@ -10,8 +10,6 @@ import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.futureweapons.world.inventory.Choicegui2Menu;
-import net.mcreator.futureweapons.procedures.Label2Procedure;
-import net.mcreator.futureweapons.procedures.Label1Procedure;
 import net.mcreator.futureweapons.network.Choicegui2ButtonMessage;
 import net.mcreator.futureweapons.FutureWeaponsMod;
 
@@ -67,12 +65,6 @@ public class Choicegui2Screen extends AbstractContainerScreen<Choicegui2Menu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font,
-
-				Label1Procedure.execute(entity), 54, 60, -13421773, false);
-		guiGraphics.drawString(this.font,
-
-				Label2Procedure.execute(entity), 54, 108, -13421773, false);
 	}
 
 	@Override
