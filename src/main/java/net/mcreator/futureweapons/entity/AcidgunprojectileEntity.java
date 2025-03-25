@@ -76,17 +76,17 @@ public class AcidgunprojectileEntity extends AbstractArrow implements ItemSuppli
 	@Override
 	public void tick() {
 		super.tick();
-		AcidgunprojectileWhileProjectileFlyingTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		AcidgunprojectileWhileProjectileFlyingTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 		if (this.inGround)
 			this.discard();
 	}
 
 	public static AcidgunprojectileEntity shoot(Level world, LivingEntity entity, RandomSource source) {
-		return shoot(world, entity, source, 4f, 8, 3);
+		return shoot(world, entity, source, 3f, 8, 3);
 	}
 
 	public static AcidgunprojectileEntity shoot(Level world, LivingEntity entity, RandomSource source, float pullingPower) {
-		return shoot(world, entity, source, pullingPower * 4f, 8, 3);
+		return shoot(world, entity, source, pullingPower * 3f, 8, 3);
 	}
 
 	public static AcidgunprojectileEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
@@ -106,7 +106,7 @@ public class AcidgunprojectileEntity extends AbstractArrow implements ItemSuppli
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
-		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 4f * 2, 12.0F);
+		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 3f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(8);
 		entityarrow.setKnockback(3);

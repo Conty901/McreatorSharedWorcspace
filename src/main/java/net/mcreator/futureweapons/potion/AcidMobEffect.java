@@ -14,7 +14,7 @@ public class AcidMobEffect extends MobEffect {
 
 	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		AcidOnEffectActiveTickProcedure.execute(entity);
+		AcidOnEffectActiveTickProcedure.execute(entity.level(), entity);
 	}
 
 	@Override

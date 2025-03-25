@@ -4,6 +4,8 @@ package net.mcreator.futureweapons.block;
 import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -35,7 +37,7 @@ import io.netty.buffer.Unpooled;
 
 public class OffBlock extends Block implements EntityBlock {
 	public OffBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.METAL).sound(SoundType.GRAVEL).strength(1f, 10f).pushReaction(PushReaction.IGNORE));
 	}
 
 	@Override

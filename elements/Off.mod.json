@@ -67,7 +67,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "IRON",
     "creativePickItem": {
       "value": ""
     },
@@ -79,7 +79,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "IGNORE",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
@@ -107,7 +107,7 @@
     "hasInventory": true,
     "guiBoundTo": "FusGUI",
     "openGUIOnRightClick": true,
-    "inventorySize": 9,
+    "inventorySize": 4,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,

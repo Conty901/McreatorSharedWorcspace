@@ -10,7 +10,7 @@
       "value": "entity.arrow.shoot"
     },
     "igniteFire": false,
-    "power": 4.0,
+    "power": 3.0,
     "damage": 8.0,
     "knockback": 3,
     "entityModel": "Modelpula",
