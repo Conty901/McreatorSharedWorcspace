@@ -9,12 +9,12 @@ import net.mcreator.futureweapons.network.FutureWeaponsModVariables;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.context.CommandContext;
 
-public class Choice21Procedure {
+public class Choice22Procedure {
 	public static void execute(LevelAccessor world, CommandContext<CommandSourceStack> arguments) {
-		FutureWeaponsModVariables.MapVariables.get(world).choice21 = (new Object() {
+		FutureWeaponsModVariables.MapVariables.get(world).choice22 = (new Object() {
 			public String getMessage() {
 				try {
-					return MessageArgument.getMessage(arguments, "choice21").getString();
+					return MessageArgument.getMessage(arguments, "choice22").getString();
 				} catch (CommandSyntaxException ignored) {
 					return "";
 				}

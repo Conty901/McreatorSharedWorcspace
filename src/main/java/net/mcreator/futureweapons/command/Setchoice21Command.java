@@ -12,16 +12,16 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
-import net.minecraft.commands.arguments.EntityArgument;
+import net.minecraft.commands.arguments.MessageArgument;
 import net.minecraft.commands.Commands;
 
-import net.mcreator.futureweapons.procedures.ChoiceparametrProcedure;
+import net.mcreator.futureweapons.procedures.Choice21Procedure;
 
 @Mod.EventBusSubscriber
-public class ChoiceCommand {
+public class Setchoice21Command {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("choice2").requires(s -> s.hasPermission(2)).then(Commands.argument("event_entity", EntityArgument.players()).executes(arguments -> {
+		event.getDispatcher().register(Commands.literal("setchoice21").requires(s -> s.hasPermission(2)).then(Commands.argument("choice21", MessageArgument.message()).executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();
@@ -33,7 +33,7 @@ public class ChoiceCommand {
 			if (entity != null)
 				direction = entity.getDirection();
 
-			ChoiceparametrProcedure.execute(world, x, y, z, arguments);
+			Choice21Procedure.execute(world, arguments);
 			return 0;
 		})));
 	}

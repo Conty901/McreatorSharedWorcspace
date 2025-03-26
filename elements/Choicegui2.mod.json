@@ -4,7 +4,7 @@
   "definition": {
     "type": 0,
     "width": 512,
-    "height": 331,
+    "height": 364,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": false,
@@ -24,10 +24,7 @@
         "data": {
           "name": "imagebutton_simple_tile",
           "image": "simple_tile.png",
-          "hoveredImage": "simple_red_tile.png",
-          "onClick": {
-            "name": "Choice21"
-          },
+          "hoveredImage": "simple_hover_tile.png",
           "x": 6,
           "y": 6
         }
@@ -37,12 +34,41 @@
         "data": {
           "name": "imagebutton_simple_tile1",
           "image": "simple_tile.png",
-          "hoveredImage": "simple_red_tile.png",
-          "onClick": {
-            "name": "Choice22"
-          },
+          "hoveredImage": "simple_hover_tile.png",
           "x": 6,
           "y": 55
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_textchoice_21",
+          "text": {
+            "fixedValue": "",
+            "name": "Textchoice21"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_textchoice_22",
+          "text": {
+            "fixedValue": "",
+            "name": "Textchoice22"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 12,
+          "y": 61
         }
       }
     ],

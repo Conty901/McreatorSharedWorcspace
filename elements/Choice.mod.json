@@ -4,7 +4,7 @@
   "definition": {
     "commandName": "choice2",
     "type": "STANDARD",
-    "permissionLevel": "No requirement",
-    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"string\"><field name=\"type\">string</field><field name=\"name\">choice21</field><statement name=\"args\"><block type=\"string\"><field name=\"type\">string</field><field name=\"name\">choice22</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Choiceparametr</field></block></statement></block></statement></block></next></block></xml>"
+    "permissionLevel": "2",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"entity\"><field name=\"name\">event_entity</field><field name=\"type\">players</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Choiceparametr</field></block></statement></block></next></block></xml>"
   }
 }

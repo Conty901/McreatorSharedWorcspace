@@ -12,20 +12,28 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
+import net.minecraft.commands.arguments.EntityArgument;
 import net.minecraft.commands.CommandSourceStack;
 
 import net.mcreator.futureweapons.world.inventory.Choicegui2Menu;
 
 import io.netty.buffer.Unpooled;
 
+import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.context.CommandContext;
 
 public class ChoiceparametrProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, CommandContext<CommandSourceStack> arguments, Entity entity) {
-		if (entity == null)
-			return;
-		Choice21Procedure.execute(world, arguments, entity);
-		if (entity instanceof ServerPlayer _ent) {
+	public static void execute(LevelAccessor world, double x, double y, double z, CommandContext<CommandSourceStack> arguments) {
+		if ((new Object() {
+			public Entity getEntity() {
+				try {
+					return EntityArgument.getEntity(arguments, "event_entity");
+				} catch (CommandSyntaxException e) {
+					e.printStackTrace();
+					return null;
+				}
+			}
+		}.getEntity()) instanceof ServerPlayer _ent) {
 			BlockPos _bpos = BlockPos.containing(x, y, z);
 			NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 				@Override

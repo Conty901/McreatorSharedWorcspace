@@ -6,6 +6,9 @@ import net.mcreator.futureweapons.network.FutureWeaponsModVariables;
 
 public class Textchoice22Procedure {
 	public static String execute(LevelAccessor world) {
-		return FutureWeaponsModVariables.MapVariables.get(world).choice22;
+		if ((FutureWeaponsModVariables.MapVariables.get(world).choice22).length() <= 20) {
+			return FutureWeaponsModVariables.MapVariables.get(world).choice22;
+		}
+		return "";
 	}
 }

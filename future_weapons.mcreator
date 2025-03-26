@@ -5243,14 +5243,13 @@
     {
       "name": "Choicegui2",
       "type": "gui",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "choicegui_2",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/futureweapons/world/inventory/Choicegui2Menu.java",
-          "src/main/java/net/mcreator/futureweapons/client/gui/Choicegui2Screen.java",
-          "src/main/java/net/mcreator/futureweapons/network/Choicegui2ButtonMessage.java"
+          "src/main/java/net/mcreator/futureweapons/client/gui/Choicegui2Screen.java"
         ]
       },
       "path": "~/Choice/choice2"
@@ -5282,10 +5281,6 @@
           {
             "name": "arguments",
             "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
           },
           {
             "name": "x",
@@ -5321,10 +5316,6 @@
           {
             "name": "arguments",
             "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
           },
           {
             "name": "world",
@@ -5370,6 +5361,55 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      },
+      "path": "~/Choice/choice2"
+    },
+    {
+      "name": "Setchoice21",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setchoice_21",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/command/Setchoice21Command.java"
+        ]
+      },
+      "path": "~/Choice/choice2"
+    },
+    {
+      "name": "Choice22",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choice_22",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/Choice22Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Choice/choice2"
+    },
+    {
+      "name": "Setchoice22",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setchoice_22",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/command/Setchoice22Command.java"
         ]
       },
       "path": "~/Choice/choice2"
