@@ -43,6 +43,7 @@ public class FutureWeaponsModTabs {
 			tabData.accept(FutureWeaponsModItems.ELECTRICSWORD.get());
 			tabData.accept(FutureWeaponsModItems.KATANA.get());
 			tabData.accept(FutureWeaponsModItems.ACIDGUN.get());
+			tabData.accept(FutureWeaponsModItems.RAILGUN.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(FutureWeaponsModItems.SCHEMATICKINGAL.get());
 			tabData.accept(FutureWeaponsModItems.BIONICHEART_2.get());

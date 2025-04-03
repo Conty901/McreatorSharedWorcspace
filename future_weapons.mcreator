@@ -5413,6 +5413,98 @@
         ]
       },
       "path": "~/Choice/choice2"
+    },
+    {
+      "name": "Railgun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railgun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/item/RailgunItem.java",
+          "src/main/resources/assets/future_weapons/models/item/railgun.json"
+        ]
+      },
+      "path": "~/weapons/railgun"
+    },
+    {
+      "name": "Raigunprojectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raigunprojectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/entity/RaigunprojectileEntity.java"
+        ]
+      },
+      "path": "~/weapons/railgun"
+    },
+    {
+      "name": "Dmgnuller",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmgnuller",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/DmgnullerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/weapons/railgun"
+    },
+    {
+      "name": "Hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/HitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/weapons/railgun"
+    },
+    {
+      "name": "Fly",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/futureweapons/procedures/FlyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/weapons/railgun"
     }
   ],
   "variable_elements": [
@@ -5475,6 +5567,12 @@
       "type": "string",
       "scope": "map",
       "value": "\"\""
+    },
+    {
+      "name": "Atc",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -5543,10 +5641,10 @@
       "block.future_weapons.blockoflithium": "Block of lithium",
       "effect.future_weapons.blooding": "Blooding",
       "item.future_weapons.kingallezvie": "Kingal lezvie",
-      "item.future_weapons.bionicheart_2": "Bionic heart 2",
       "item.future_weapons.rawwolfram": "Raw wolfram",
-      "block.future_weapons.blockofaluminum": "Block of aluminum",
+      "item.future_weapons.bionicheart_2": "Bionic heart 2",
       "block.future_weapons.engeneertable": "Engeneer table",
+      "block.future_weapons.blockofaluminum": "Block of aluminum",
       "block.future_weapons.serebroore": "Silver ore",
       "item.future_weapons.testweighteditadd": "Test weight edit add",
       "item.future_weapons.leadnugge": "Lead nuggeе",
@@ -5563,6 +5661,7 @@
       "block.future_weapons.lithiumore": "Lithium ore",
       "block.future_weapons.aluminumore_2": "Aluminum deepslate ore",
       "item.future_weapons.kobalt": "Kobalt ingot",
+      "item.future_weapons.railgun": "Railgun",
       "block.future_weapons.off": "Металическая печь",
       "item.future_weapons.lithiumingot": "Lithium ingot",
       "item.future_weapons.serebro": "Silver ingot",
@@ -5665,6 +5764,10 @@
           },
           {
             "name": "axid_gun",
+            "children": []
+          },
+          {
+            "name": "railgun",
             "children": []
           }
         ]

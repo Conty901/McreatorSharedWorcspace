@@ -27,6 +27,7 @@ import net.mcreator.futureweapons.item.RawwolframItem;
 import net.mcreator.futureweapons.item.RawlithiumItem;
 import net.mcreator.futureweapons.item.RawleadItem;
 import net.mcreator.futureweapons.item.RawaluminumItem;
+import net.mcreator.futureweapons.item.RailgunItem;
 import net.mcreator.futureweapons.item.MolotItem;
 import net.mcreator.futureweapons.item.LithiumnuggetItem;
 import net.mcreator.futureweapons.item.LithiumingotItem;
@@ -105,6 +106,7 @@ public class FutureWeaponsModItems {
 	public static final RegistryObject<Item> LITHIUMNUGGET = REGISTRY.register("lithiumnugget", () -> new LithiumnuggetItem());
 	public static final RegistryObject<Item> BLOCKOFLITHIUM = block(FutureWeaponsModBlocks.BLOCKOFLITHIUM);
 	public static final RegistryObject<Item> ACIDGUN = REGISTRY.register("acidgun", () -> new AcidgunItem());
+	public static final RegistryObject<Item> RAILGUN = REGISTRY.register("railgun", () -> new RailgunItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
